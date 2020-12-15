@@ -1,7 +1,7 @@
 +++
 title = "Main page"
 author = ["Robert Clay"]
-lastmod = 2020-12-13T20:55:31+09:00
+lastmod = 2020-12-15T21:46:45+09:00
 draft = false
 weight = 2001
 noauthor = true
@@ -14,7 +14,4 @@ noread = true
   identifier = "main-page"
 +++
 
-This is the text on the main page. And here is another sentence. And I need to
-do a manual export for now. Auto? Seems to work.
-
-Ok... now I got it.
+This will be on of the pages separate from the blog posts. It will be longer
