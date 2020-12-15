@@ -52,6 +52,7 @@ This will be on of the pages separate from the blog posts. It will be longer
     :EXPORT_DATE: 2020-12-13
     :END:
    [2020-12-15 Tue], #first_post
+   
    This is the first of many posts to come. I had never considered my self a
    blogger type, but I have been learning some things recently and I feel like a
    blog is a great way to share what I have been learning is a ...oddly
