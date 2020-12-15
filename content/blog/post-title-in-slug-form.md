@@ -1,12 +1,14 @@
 +++
 title = "Post Title"
 author = ["Robert Clay"]
-date = 2017-12-19T17:00:00+09:00
-lastmod = 2020-12-13T20:44:27+09:00
+date = 2017-12-19
+lastmod = 2020-12-15T22:31:04+09:00
 tags = ["post", "tags"]
 categories = ["topic"]
-draft = false
+draft = true
 +++
+
+-   State "TODO"       from "DONE"       <span class="timestamp-wrapper"><span class="timestamp">[2020-12-15 Tue 22:31]</span></span>
 
 Content
 

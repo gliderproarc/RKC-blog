@@ -19,13 +19,13 @@ This will be on of the pages separate from the blog posts. It will be longer
   :EXPORT_HUGO_SECTION: blog
   :END:
 ** Topic                                                             :@topic:
-*** DONE Post Title                                               :post:tags:
-    CLOSED: [2017-12-19 Tue 17:00]
+*** TODO Post Title                                               :post:tags:
     :PROPERTIES:
     :EXPORT_DATE: 2017-12-19
     :EXPORT_FILE_NAME: post-title-in-slug-form
     :END:
 
+    - State "TODO"       from "DONE"       [2020-12-15 Tue 22:31]
     Content
 
     More Content
@@ -46,13 +46,33 @@ This will be on of the pages separate from the blog posts. It will be longer
 
     This article *will* be exported but will be marked ~draft = true~ in the front matter.
 
-*** DONE Bobby test post
+*** DONE First post
     :PROPERTIES:
     :EXPORT_FILE_NAME: bobby-test-post
     :EXPORT_DATE: 2020-12-13
     :END:
+   [2020-12-15 Tue], #first_post
+   This is the first of many posts to come. I had never considered my self a
+   blogger type, but I have been learning some things recently and I feel like a
+   blog is a great way to share what I have been learning is a ...oddly
+   old fashioned manner. This past year I went from using Google docs to keep
+   notes at work, so today finding myself unwilling to use anything less than
+   Emacs and Org mode for a surprising amount of my day to day note taking and
+   organization. It was a lot to learn, but the journey was worth it, and I hope
+   to share not just what I have been learning about this past year (2020 was
+   one for the record books in more ways than one), but I haven't really felt
+   like I had a place to tell my story until now.
 
-    This is the text in my test post. Did I get this one too? From the top?
+   These days all the young kids in Japan want to grow up and be a YouTuber.
+   YouTube is a fascinating medium, and the amount of things you can learn and
+   see there is staggering. But I have found myself gravitating to text these
+   days and hope that a simple presentation can provide some counterpoint to the
+   rest of the world that seems to be happily consuming ever increasing amounts
+   of loud, noise, colorful, and occasionally obnoxious video content in various
+   forms.
+
+   ...wow, I started off this blog with a little "get off my lawn" soap-box
+   speech. This is going to be interesting. 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:
