@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://sharp-kare-90eb6c.netlify.app/"
 title = "RKC-blog"
 theme = "hugo-theme-console"
 languageCode = "en-us"
