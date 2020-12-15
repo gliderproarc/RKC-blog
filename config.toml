@@ -1,0 +1,16 @@
+baseURL = "http://localhost:1313/"
+title = "RKC-blog"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  [[params.navlinks]]
+  name = "blog/"
+  url = "blog/"
+
+  [[params.navlinks]]
+  name = "pages/"
+  url = "pages/"
