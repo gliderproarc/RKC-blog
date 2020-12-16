@@ -2,7 +2,7 @@
 title = "What this Blog runs on"
 author = ["Robert Clay"]
 date = 2020-12-16
-lastmod = 2020-12-16T20:52:35+09:00
+lastmod = 2020-12-16T20:59:18+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -29,7 +29,7 @@ internet:
     how to use all this sooner, I wonder what I might have made when I was
     younger with more time on my hands.. lol.
 
-    Just Emacs and Git have been a Journey to learn, but now I have so much
+    Just Emacs and Git have been a journey to learn, but now I have so much
     respect for what they can do as tools and how they let me do my work. And
     of all the things I could say about them I think I am most interested in
     talking about text files.
@@ -57,19 +57,19 @@ useless now.
 
 So when I got to thinking about making this blog, I decided to make it here
 with a Hugo back-end. Hugo is a static site generation frame work built on
-Go, and while I don't know enough go to be able to build it my self, have
+Go, and while I don't know enough Go to be able to build it my self, have
 access to most the inner working of this site is really quite fun and
-interesting. To make a post, I just make a mark-down file, but it in the
+interesting. To make a post, I just make a mark-down file, put it in the
 right spot in my file structure and I have a new blog post. I'll talk about
-git an Emacs another day, but Org mode deserves some special mention.
+Git and Emacs another day, but Org mode deserves some special mention.
 
 
 ## Org mode {#org-mode}
 
 Org mode is it's own markup language specific to Emacs and has a lot of
 support built into it for the lisp code (or elisp rather) it is built with.
-I have had to learn bit of lisp, but as far as programming languages go I
-think it's not nearly as trouble some as languages like Javascript, but I
+I have had to learn a bit of lisp, but as far as programming languages go I
+think it's not nearly as troublesome as languages like Javascript, but I
 digress. Suffice to say Org is a markup language, but at the end of the day
 it's also just text files. Meaning even if I needed to move away from Emacs
 and Org mode one day, all the words in my blog and notes will all be just a
@@ -80,6 +80,6 @@ I would not recommend this platform to everyone. The amount of reading I had
 to do to get it up and running was pretty substantial. And if you are
 thinking of making a blog I am sure tools and platforms like Word-press are
 much more approachable. But I really like what Hugo and Netlify and Emacs
-have afforded me here. I save an org file and commit to a gut repository and
+have afforded me here. I save an Org file and commit to a Git repository and
 I have posted a blog post. To me... that is the kind of powerful simplicity
 I want to use.
