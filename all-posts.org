@@ -80,7 +80,6 @@ This will be on of the pages separate from the blog posts. It will be longer
     :EXPORT_FILE_NAME: what-this-blog-runs-on
     :EXPORT_DATE: 2020-12-16
     :END:
-    - State "DONE"       from "TODO"       [2020-12-16 Wed 20:50]
     [2020-12-16 Wed], #Emacs 
     This blog looks very simple on the surface, but what it is built on is
     something I am particularly happy with, and it will introduce a few themes

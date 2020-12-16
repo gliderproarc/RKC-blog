@@ -2,12 +2,10 @@
 title = "What this Blog runs on"
 author = ["Robert Clay"]
 date = 2020-12-16
-lastmod = 2020-12-16T20:50:41+09:00
+lastmod = 2020-12-16T20:52:35+09:00
 categories = ["topic"]
 draft = false
 +++
-
--   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2020-12-16 Wed 20:50]</span></span>
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-12-16 Wed]</span></span>, #Emacs
 This blog looks very simple on the surface, but what it is built on is
