@@ -2,7 +2,7 @@
 title = "Org mode introduction"
 author = ["Robert Clay"]
 date = 2020-12-17
-lastmod = 2020-12-17T21:05:43+09:00
+lastmod = 2020-12-17T21:09:18+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -65,7 +65,7 @@ fill out into a column in your table. Something like this:
 `|      2 |      3 |`
 `|      3 |      4 |`
 `|      4 |      5 |`
-`#+TBLFM: $1='(org-sbe "Add_1_to_me" (num $1))`
+`#+TBLFM: $1`'(org-sbe "Add\_1\_to\_me" (num $1))=
 
 `#+name:Add_1_to_me`
 `#+begin_src python :python python3 :var num=1`
