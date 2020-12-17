@@ -2,7 +2,7 @@
 title = "Org mode introduction"
 author = ["Robert Clay"]
 date = 2020-12-17
-lastmod = 2020-12-17T21:22:33+09:00
+lastmod = 2020-12-17T21:24:37+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -98,9 +98,14 @@ I had tried my hand at coding, and the "literate programming" style of
 writing prose with bits of code interspersed around the file was really
 nice. So I am teaching my slef a few languages, and one of them is elisp.
 
-<a id="code-snippet--exmaple-code"></a>
-```elisp
+```text
+    #+name:example-code
+    #+begin_src elisp
 (cdr '(a b c d))
+    #+end_src
+
+    #+RESULTS: exmaple-code
+    | b | c | d |
 ```
 
 I won't bore you with a lisp tutorial, but suffice to say Org mode has made

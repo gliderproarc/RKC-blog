@@ -250,14 +250,16 @@ return(num+1)
      I had tried my hand at coding, and the "literate programming" style of
      writing prose with bits of code interspersed around the file was really
      nice. So I am teaching my slef a few languages, and one of them is elisp.
-
-    #+name:exmaple-code
+     
+#+BEGIN_EXAMPLE
+    #+name:example-code
     #+begin_src elisp
 (cdr '(a b c d))
     #+end_src 
 
     #+RESULTS: exmaple-code
     | b | c | d |
+#+END_EXAMPLE
 
     I won't bore you with a lisp tutorial, but suffice to say Org mode has made
     writing little bits of code that work together with words really easy. And
