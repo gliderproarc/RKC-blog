@@ -157,11 +157,13 @@
     I want to use.
 
     
-*** TODO Org mode introduction
+*** DONE Org mode introduction
+    CLOSED: [2020-12-17 Thu 20:51]
     :PROPERTIES:
     :EXPORT_FILE_NAME: org-mode-introduction
     :EXPORT_DATE: 2020-12-17
     :END:
+    - State "DONE"       from "TODO"       [2020-12-17 Thu 20:51]
     [2020-12-17 Thu],#Org-mode
     
     This topic deserves more than a post or two, but a nice short introduction to

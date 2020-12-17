@@ -1,11 +1,13 @@
 +++
 title = "Org mode introduction"
 author = ["Robert Clay"]
-date = 2020-12-17
-lastmod = 2020-12-17T20:51:03+09:00
+date = 2020-12-17T20:51:00+09:00
+lastmod = 2020-12-17T20:51:41+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
+
+-   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2020-12-17 Thu 20:51]</span></span>
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-12-17 Thu]</span></span>,#Org-mode
 
