@@ -14,6 +14,25 @@
    :EXPORT_FILE_NAME: page-title
    :END:
 This will be on of the pages separate from the blog posts. It will be longer
+
+
+#+name: all_tags
+#+begin_src emacs-lisp :results value table
+(defun flatten (list-of-lists)
+  (apply #'append list-of-lists))
+(let (tags)
+  (org-map-entries
+   (lambda ()
+     (dolist (tag (org-get-tags))
+       (push (list tag) tags)))
+  (cl-sort tags 'string-lessp :key 'car) 'agenda-with-archives) 
+  
+  (mapcar (lambda (this-tag)
+                 (list this-tag (count-if (lambda (word) (string= word this-tag))(flatten tags))))
+               (delete-dups (flatten tags))))
+#+end_src
+
+Here is a test for some elisp code.s
 * Posts
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: blog
