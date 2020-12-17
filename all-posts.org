@@ -158,12 +158,10 @@
 
     
 *** DONE Org mode introduction
-    CLOSED: [2020-12-17 Thu 20:51]
     :PROPERTIES:
     :EXPORT_FILE_NAME: org-mode-introduction
     :EXPORT_DATE: 2020-12-17
     :END:
-    - State "DONE"       from "TODO"       [2020-12-17 Thu 20:51]
     [2020-12-17 Thu],#Org-mode
     
     This topic deserves more than a post or two, but a nice short introduction to
@@ -214,7 +212,7 @@
      spreadsheet formulas. You can write a Python function and have the result
      fill out into a column in your table. Something like this:
 
-~~~     
+~~     
    #+TBLNAME: data_for_testing
    | number | Python |
    |--------+--------|
@@ -228,7 +226,7 @@
 #+begin_src python :python python3 :var num=1
 return(num+1)
 #+end_src
-~~~
+~~
      Now any spreadsheet can add a number to the next cell's value, but the fact
      it can be written in a programming language as simple and powerful as
      python is one of the things that keeps me from looking anywhere else to do

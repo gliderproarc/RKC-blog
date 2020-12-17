@@ -1,13 +1,11 @@
 +++
 title = "Org mode introduction"
 author = ["Robert Clay"]
-date = 2020-12-17T20:51:00+09:00
-lastmod = 2020-12-17T20:58:18+09:00
+date = 2020-12-17
+lastmod = 2020-12-17T21:00:09+09:00
 categories = ["topic"]
 draft = false
 +++
-
--   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2020-12-17 Thu 20:51]</span></span>
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-12-17 Thu]</span></span>,#Org-mode
 
@@ -60,7 +58,7 @@ spreadsheet that don't have to use the less than ideal "language" of
 spreadsheet formulas. You can write a Python function and have the result
 fill out into a column in your table. Something like this:
 
-`~`
+~~
 
 <a id="table--data-for-testing"></a>
 
@@ -76,7 +74,7 @@ fill out into a column in your table. Something like this:
 return(num+1)
 ```
 
-`~`
+~~
      Now any spreadsheet can add a number to the next cell's value, but the fact
      it can be written in a programming language as simple and powerful as
      python is one of the things that keeps me from looking anywhere else to do
