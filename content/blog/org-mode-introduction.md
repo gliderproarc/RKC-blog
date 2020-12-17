@@ -2,7 +2,7 @@
 title = "Org mode introduction"
 author = ["Robert Clay"]
 date = 2020-12-17
-lastmod = 2020-12-17T21:09:18+09:00
+lastmod = 2020-12-17T21:14:26+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -58,19 +58,19 @@ spreadsheet that don't have to use the less than ideal "language" of
 spreadsheet formulas. You can write a Python function and have the result
 fill out into a column in your table. Something like this:
 
-`#+TBLNAME: data_for_testing`
-`| number | Python |`
-`|--------+--------|`
-`|      1 |      2 |`
-`|      2 |      3 |`
-`|      3 |      4 |`
-`|      4 |      5 |`
-`#+TBLFM: $1`'(org-sbe "Add\_1\_to\_me" (num $1))=
+\`#+TBLNAME: data\_for\_testing\`<br>
+\`| number | Python |\`<br>
+\`|--------+--------|\`<br>
+\`|      1 |      2 |\`<br>
+\`|      2 |      3 |\`<br>
+\`|      3 |      4 |\`<br>
+\`|      4 |      5 |\`<br>
+\`#+TBLFM: $1='(org-sbe "Add\_1\_to\_me" (num $1))\`<br>
 
-`#+name:Add_1_to_me`
-`#+begin_src python :python python3 :var num=1`
-`return(num+1)`
-`#+end_src`
+\`#+name:Add\_1\_to\_me\`<br>
+\`#+begin\_src python :python python3 :var num=1\`<br>
+\`return(num+1)\`<br>
+\`#+end\_src\`<br>
 
 Now any spreadsheet can add a number to the next cell's value, but the fact
 it can be written in a programming language as simple and powerful as

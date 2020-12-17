@@ -212,19 +212,19 @@
      spreadsheet formulas. You can write a Python function and have the result
      fill out into a column in your table. Something like this:
 
-  =#+TBLNAME: data_for_testing=
-  =| number | Python |=
-  =|--------+--------|=
-  =|      1 |      2 |=
-  =|      2 |      3 |=
-  =|      3 |      4 |=
-  =|      4 |      5 |=
-  =#+TBLFM: $1='(org-sbe "Add_1_to_me" (num $1))=
+  `#+TBLNAME: data_for_testing`<br>
+  `| number | Python |`<br>
+  `|--------+--------|`<br>
+  `|      1 |      2 |`<br>
+  `|      2 |      3 |`<br>
+  `|      3 |      4 |`<br>
+  `|      4 |      5 |`<br>
+  `#+TBLFM: $1='(org-sbe "Add_1_to_me" (num $1))`<br>
   
-=#+name:Add_1_to_me=
-=#+begin_src python :python python3 :var num=1=
-=return(num+1)=
-=#+end_src=
+`#+name:Add_1_to_me`<br>
+`#+begin_src python :python python3 :var num=1`<br>
+`return(num+1)`<br>
+`#+end_src`<br>
 
      Now any spreadsheet can add a number to the next cell's value, but the fact
      it can be written in a programming language as simple and powerful as
