@@ -232,9 +232,45 @@
      python is one of the things that keeps me from looking anywhere else to do
      this sort of thing.
 
-     
+     I'll touch on the way the Python code is represented there later. Let me
+     keep going on what I originally needed Org to do for me. I also wanted a
+     way to write and keep notes. I had used Atom basic .md files, but Org did
+     more than just give me a way to write notes. Because it is implemented in a
+     Lisp interpreter, there are many things you can ask code to do for you
+     based on what you write in your notes. Things like a special syntax to make
+     something a "task" or a special syntax to make things a date which can be
+     recognized else where to place notes and tasks relative to each other like
+     a planner, it's really quite amazing how many things are in this software.
+     And what really struck me was that fact it was basically all plain text
+     and lisp code.
 
+     I've mentioned lisp and code a few times, and while my intention was not to
+     learn how to write code when I started using Org mode, I decided to try a
+     little bit here and there and found that it wasn't as bad as the last time
+     I had tried my hand at coding, and the "literate programming" style of
+     writing prose with bits of code interspersed around the file was really
+     nice. So I am teaching my slef a few languages, and one of them is elisp.
 
+    #+name:exmaple-code
+    #+begin_src elisp
+(cdr '(a b c d))
+    #+end_src 
+
+    #+RESULTS: exmaple-code
+    | b | c | d |
+
+    I won't bore you with a lisp tutorial, but suffice to say Org mode has made
+    writing little bits of code that work together with words really easy. And
+    surprisingly, you can mix languages. Because these blocks of code are
+    independent in your document, you can define what they "see" from each other
+    and string them together into a program with several languages in it. 
+
+    My short introduction here hardly does the program justice, but if you want
+    to know more, the link above can take you to the Org mode manual, which will
+    tell most of what there is to know about it. If you are willing to learn how
+    to use Emacs, Org mode is an amazing tool that made Emacs worth it for me.
+    And after a while I started to find just how interesting Emacs it's self is
+    too, but that is a topic for another day.
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
