@@ -2,7 +2,7 @@
 title = "Org mode introduction"
 author = ["Robert Clay"]
 date = 2020-12-17
-lastmod = 2020-12-17T21:01:44+09:00
+lastmod = 2020-12-17T21:05:43+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -58,27 +58,24 @@ spreadsheet that don't have to use the less than ideal "language" of
 spreadsheet formulas. You can write a Python function and have the result
 fill out into a column in your table. Something like this:
 
-\`\`\`
+`#+TBLNAME: data_for_testing`
+`| number | Python |`
+`|--------+--------|`
+`|      1 |      2 |`
+`|      2 |      3 |`
+`|      3 |      4 |`
+`|      4 |      5 |`
+`#+TBLFM: $1='(org-sbe "Add_1_to_me" (num $1))`
 
-<a id="table--data-for-testing"></a>
+`#+name:Add_1_to_me`
+`#+begin_src python :python python3 :var num=1`
+`return(num+1)`
+`#+end_src`
 
-| number | Python |
-|--------|--------|
-| 1      | 2      |
-| 2      | 3      |
-| 3      | 4      |
-| 4      | 5      |
-
-<a id="code-snippet--Add-1-to-me"></a>
-```python
-return(num+1)
-```
-
-\`\`\`
-     Now any spreadsheet can add a number to the next cell's value, but the fact
-     it can be written in a programming language as simple and powerful as
-     python is one of the things that keeps me from looking anywhere else to do
-     this sort of thing.
+Now any spreadsheet can add a number to the next cell's value, but the fact
+it can be written in a programming language as simple and powerful as
+python is one of the things that keeps me from looking anywhere else to do
+this sort of thing.
 
 I'll touch on the way the Python code is represented there later. Let me
 keep going on what I originally needed Org to do for me. I also wanted a
