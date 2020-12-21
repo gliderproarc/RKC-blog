@@ -2,12 +2,10 @@
 title = "Spacemacs"
 author = ["Robert Clay"]
 date = 2020-12-17
-lastmod = 2020-12-21T21:13:23+09:00
+lastmod = 2020-12-21T21:15:04+09:00
 categories = ["topic"]
 draft = false
 +++
-
--   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2020-12-21 Mon 21:13]</span></span>
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-12-21 Mon]</span></span>,#Emacs
 

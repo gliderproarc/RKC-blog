@@ -280,7 +280,6 @@ return(num+1)
     :EXPORT_FILE_NAME: org-mode-introduction
     :EXPORT_DATE: 2020-12-17
     :END:
-    - State "DONE"       from "TODO"       [2020-12-21 Mon 21:13]
    [2020-12-21 Mon],#Emacs 
 
    Along with my search for an extensible note taking application and
