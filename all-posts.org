@@ -164,7 +164,7 @@
     :END:
     [2020-12-17 Thu],#Org-mode
     
-    This topic deserves more than a post or two, but a nice short introduction to
+    This topic deserves more than a post or two, but it's a nice short introduction to
   what it is and how it works might help you understand why I have come to rely
   on Org mode for most of my note taking and task tracking needs.
 
@@ -277,7 +277,7 @@ return(num+1)
     
 *** DONE Spacemacs
     :PROPERTIES:
-    :EXPORT_FILE_NAME: org-mode-introduction
+    :EXPORT_FILE_NAME: spacemacs
     :EXPORT_DATE: 2020-12-17
     :END:
    [2020-12-21 Mon],#Emacs 
