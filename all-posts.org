@@ -288,8 +288,8 @@ return(num+1)
    
    https://www.spacemacs.org
 
-   I didn't know what Vim was before I started reading the introduction in this
-   page. And that got me reading all kind of interesting articles on Vim, and
+   I didn't know what Vim was before I started reading the introduction on the
+   Spacemacs home page. And that got me reading all kind of interesting articles on Vim, and
    how it's nice to know if you need to SSH into a sever you don't know and
    can't install any software. "vi" is going to be on that server, and it can
    run in a terminal session without any GUI. Modal text editing is not
