@@ -278,7 +278,7 @@ return(num+1)
 *** DONE Spacemacs
     :PROPERTIES:
     :EXPORT_FILE_NAME: spacemacs
-    :EXPORT_DATE: 2020-12-17
+    :EXPORT_DATE: 2020-12-21
     :END:
    [2020-12-21 Mon],#Emacs 
 

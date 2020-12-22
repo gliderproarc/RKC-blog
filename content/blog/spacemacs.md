@@ -1,8 +1,8 @@
 +++
 title = "Spacemacs"
 author = ["Robert Clay"]
-date = 2020-12-17
-lastmod = 2020-12-22T08:47:28+09:00
+date = 2020-12-21
+lastmod = 2020-12-22T18:03:00+09:00
 categories = ["topic"]
 draft = false
 +++
