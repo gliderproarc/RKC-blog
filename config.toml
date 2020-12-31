@@ -1,16 +1,26 @@
 baseURL = "https://sharp-kare-90eb6c.netlify.app/"
 title = "RKC-blog"
-theme = "hugo-theme-console"
+theme = "base16"
 languageCode = "en-us"
 
-[params]
-  # Cutting off the page title to two chars for mobile (console-demo -> co)
-  titleCutting = true
 
-  [[params.navlinks]]
-  name = "blog/"
-  url = "blog/"
 
-  [[params.navlinks]]
-  name = "pages/"
-  url = "pages/"
+
+
+
+
+
+
+
+
+# [params]
+#   # Cutting off the page title to two chars for mobile (console-demo -> co)
+#   titleCutting = true
+
+#   [[params.navlinks]]
+#   name = "blog/"
+#   url = "blog/"
+
+#   [[params.navlinks]]
+#   name = "pages/"
+#   url = "pages/"
