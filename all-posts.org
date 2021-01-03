@@ -494,8 +494,10 @@ Node with Clojurescript and not JavaScript.
 *** DONE MaxMSP hold switch
     :PROPERTIES:
     :EXPORT_FILE_NAME: MaxMSP-hold-switch
-    :EXPORT_DATE: 2020-01-03
+    :EXPORT_DATE: 2021-01-03
     :END:
+
+   [2021-01-03 Sun],#MaxMSP
 **** Making your own tools can be a rewarding challenge
 
 Being a computer musician, I appreciate the ability to work with data as it suits me. I don't need to just accept a stream of midi and ask a software synthesizer to make sounds for me. I can manipulate that stream of data in interesting ways before I put it to use. One such use I found for this manipulation is replicating a feature of a keyboard I sold a few years back.
@@ -543,7 +545,7 @@ keyboard used to do, but with the flexibility of being implemented in MaxMSP
 coda rather than tied up in a piece of hardware. I learned a lot about Max and
 I hope this makes my next project that much easier to get started on.
 **** The MaxMSP object for those interested
-#+begin_MaxMSP
+```MAXMSP
 {
 	"boxes" : [ 		{
 			"box" : 			{
@@ -1182,8 +1184,7 @@ I hope this makes my next project that much easier to get started on.
  ],
 	"classnamespace" : "box"
 }
-#+end_MaxMSP
-
+```
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:
