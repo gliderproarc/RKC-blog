@@ -2,7 +2,7 @@
 title = "MaxMSP hold switch"
 author = ["Robert Clay"]
 date = 2021-01-03
-lastmod = 2021-01-03T11:51:51+09:00
+lastmod = 2021-01-03T11:55:41+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -64,7 +64,7 @@ I hope this makes my next project that much easier to get started on.
 
 ## The MaxMSP object for those interested {#the-maxmsp-object-for-those-interested}
 
-`~`
+```text
 {
 	"boxes" : [ 		{
 			"box" : 			{
@@ -74,7 +74,7 @@ I hope this makes my next project that much easier to get started on.
 				"numoutlets" : 1,
 				"id" : "obj-46",
 				"outlettype" : [ "int" ],
-				"patching\_rect" : [ 712.000016808509827, 413.666671216487885, 145.0, 24.0 ],
+				"patching_rect" : [ 712.000016808509827, 413.666671216487885, 145.0, 24.0 ],
 				"patcher" : 				{
 					"fileversion" : 1,
 					"appversion" : 					{
@@ -89,9 +89,9 @@ I hope this makes my next project that much easier to get started on.
 					"rect" : [ 1059.0, 84.0, 955.0, 1003.0 ],
 					"bglocked" : 0,
 					"openinpresentation" : 0,
-					"default\_fontsize" : 12.0,
-					"default\_fontface" : 0,
-					"default\_fontname" : "Arial",
+					"default_fontsize" : 12.0,
+					"default_fontface" : 0,
+					"default_fontname" : "Arial",
 					"gridonopen" : 1,
 					"gridsize" : [ 15.0, 15.0 ],
 					"gridsnaponopen" : 1,
@@ -102,7 +102,7 @@ I hope this makes my next project that much easier to get started on.
 					"toptoolbarpinned" : 0,
 					"righttoolbarpinned" : 0,
 					"bottomtoolbarpinned" : 0,
-					"toolbars\_unpinned\_last\_save" : 0,
+					"toolbars_unpinned_last_save" : 0,
 					"tallnewobj" : 0,
 					"boxanimatetime" : 200,
 					"enablehscroll" : 1,
@@ -112,7 +112,7 @@ I hope this makes my next project that much easier to get started on.
 					"digest" : "",
 					"tags" : "",
 					"style" : "",
-					"subpatcher\_template" : "Default Max 7",
+					"subpatcher_template" : "Default Max 7",
 					"assistshowspatchername" : 0,
 					"boxes" : [ 						{
 							"box" : 							{
@@ -122,7 +122,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 2,
 								"id" : "obj-6",
 								"outlettype" : [ "int", "int" ],
-								"patching\_rect" : [ 319.333338856697083, 340.0, 47.0, 22.0 ]
+								"patching_rect" : [ 319.333338856697083, 340.0, 47.0, 22.0 ]
 							}
 
 						}
@@ -133,7 +133,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-5",
 								"outlettype" : [ "bang" ],
-								"patching\_rect" : [ 460.0, 30.0, 30.0, 30.0 ],
+								"patching_rect" : [ 460.0, 30.0, 30.0, 30.0 ],
 								"comment" : "",
 								"index" : 3
 							}
@@ -143,11 +143,11 @@ I hope this makes my next project that much easier to get started on.
 							"box" : 							{
 								"maxclass" : "button",
 								"numinlets" : 1,
-								"parameter\_enable" : 0,
+								"parameter_enable" : 0,
 								"numoutlets" : 1,
 								"id" : "obj-34",
 								"outlettype" : [ "bang" ],
-								"patching\_rect" : [ 475.666665613651276, 107.333334505558014, 66.0, 66.0 ]
+								"patching_rect" : [ 475.666665613651276, 107.333334505558014, 66.0, 66.0 ]
 							}
 
 						}
@@ -159,7 +159,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 2,
 								"id" : "obj-32",
 								"outlettype" : [ "", "" ],
-								"patching\_rect" : [ 371.666667461395264, 178.0, 46.0, 22.0 ]
+								"patching_rect" : [ 371.666667461395264, 178.0, 46.0, 22.0 ]
 							}
 
 						}
@@ -171,7 +171,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-30",
 								"outlettype" : [ "" ],
-								"patching\_rect" : [ 337.0, 732.0, 37.0, 22.0 ]
+								"patching_rect" : [ 337.0, 732.0, 37.0, 22.0 ]
 							}
 
 						}
@@ -183,7 +183,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 8,
 								"id" : "obj-28",
 								"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-								"patching\_rect" : [ 211.0, 200.0, 92.5, 22.0 ]
+								"patching_rect" : [ 211.0, 200.0, 92.5, 22.0 ]
 							}
 
 						}
@@ -195,7 +195,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 2,
 								"id" : "obj-25",
 								"outlettype" : [ "int", "" ],
-								"patching\_rect" : [ 216.0, 785.0, 82.0, 22.0 ]
+								"patching_rect" : [ 216.0, 785.0, 82.0, 22.0 ]
 							}
 
 						}
@@ -203,11 +203,11 @@ I hope this makes my next project that much easier to get started on.
 							"box" : 							{
 								"maxclass" : "gswitch2",
 								"numinlets" : 2,
-								"parameter\_enable" : 0,
+								"parameter_enable" : 0,
 								"numoutlets" : 2,
 								"id" : "obj-40",
 								"outlettype" : [ "", "" ],
-								"patching\_rect" : [ 191.0, 117.333334505558014, 39.0, 32.0 ],
+								"patching_rect" : [ 191.0, 117.333334505558014, 39.0, 32.0 ],
 								"int" : 1
 							}
 
@@ -220,7 +220,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 2,
 								"id" : "obj-39",
 								"outlettype" : [ "", "bang" ],
-								"patching\_rect" : [ 319.333338856697083, 295.00000274181366, 44.0, 22.0 ]
+								"patching_rect" : [ 319.333338856697083, 295.00000274181366, 44.0, 22.0 ]
 							}
 
 						}
@@ -232,7 +232,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-27",
 								"outlettype" : [ "" ],
-								"patching\_rect" : [ 496.666665613651276, 388.333338856697083, 37.0, 22.0 ]
+								"patching_rect" : [ 496.666665613651276, 388.333338856697083, 37.0, 22.0 ]
 							}
 
 						}
@@ -240,11 +240,11 @@ I hope this makes my next project that much easier to get started on.
 							"box" : 							{
 								"maxclass" : "button",
 								"numinlets" : 1,
-								"parameter\_enable" : 0,
+								"parameter_enable" : 0,
 								"numoutlets" : 1,
 								"id" : "obj-26",
 								"outlettype" : [ "bang" ],
-								"patching\_rect" : [ 496.666665613651276, 423.000006556510925, 24.0, 24.0 ]
+								"patching_rect" : [ 496.666665613651276, 423.000006556510925, 24.0, 24.0 ]
 							}
 
 						}
@@ -256,7 +256,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-24",
 								"outlettype" : [ "" ],
-								"patching\_rect" : [ 453.333342850208282, 577.666677832603455, 29.5, 22.0 ]
+								"patching_rect" : [ 453.333342850208282, 577.666677832603455, 29.5, 22.0 ]
 							}
 
 						}
@@ -268,7 +268,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-22",
 								"outlettype" : [ "" ],
-								"patching\_rect" : [ 413.666667520999908, 577.666677832603455, 29.5, 22.0 ]
+								"patching_rect" : [ 413.666667520999908, 577.666677832603455, 29.5, 22.0 ]
 							}
 
 						}
@@ -280,7 +280,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-20",
 								"outlettype" : [ "bang" ],
-								"patching\_rect" : [ 496.666665613651276, 468.000000536441803, 66.0, 22.0 ]
+								"patching_rect" : [ 496.666665613651276, 468.000000536441803, 66.0, 22.0 ]
 							}
 
 						}
@@ -292,7 +292,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-17",
 								"outlettype" : [ "int" ],
-								"patching\_rect" : [ 496.666665613651276, 333.999996542930603, 37.0, 22.0 ]
+								"patching_rect" : [ 496.666665613651276, 333.999996542930603, 37.0, 22.0 ]
 							}
 
 						}
@@ -304,7 +304,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 9,
 								"id" : "obj-16",
 								"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
-								"patching\_rect" : [ 371.666667461395264, 413.000005483627319, 103.0, 22.0 ]
+								"patching_rect" : [ 371.666667461395264, 413.000005483627319, 103.0, 22.0 ]
 							}
 
 						}
@@ -312,11 +312,11 @@ I hope this makes my next project that much easier to get started on.
 							"box" : 							{
 								"maxclass" : "toggle",
 								"numinlets" : 1,
-								"parameter\_enable" : 0,
+								"parameter_enable" : 0,
 								"numoutlets" : 1,
 								"id" : "obj-15",
 								"outlettype" : [ "int" ],
-								"patching\_rect" : [ 360.999999284744263, 632.666671693325043, 24.0, 24.0 ]
+								"patching_rect" : [ 360.999999284744263, 632.666671693325043, 24.0, 24.0 ]
 							}
 
 						}
@@ -328,7 +328,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 2,
 								"id" : "obj-12",
 								"outlettype" : [ "int", "int" ],
-								"patching\_rect" : [ 320.999999284744263, 669.666671335697174, 59.0, 22.0 ]
+								"patching_rect" : [ 320.999999284744263, 669.666671335697174, 59.0, 22.0 ]
 							}
 
 						}
@@ -338,7 +338,7 @@ I hope this makes my next project that much easier to get started on.
 								"numinlets" : 1,
 								"numoutlets" : 0,
 								"id" : "obj-4",
-								"patching\_rect" : [ 191.0, 860.0, 30.0, 30.0 ],
+								"patching_rect" : [ 191.0, 860.0, 30.0, 30.0 ],
 								"comment" : "",
 								"index" : 1
 							}
@@ -351,7 +351,7 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-3",
 								"outlettype" : [ "int" ],
-								"patching\_rect" : [ 311.000009179115295, 24.0, 30.0, 30.0 ],
+								"patching_rect" : [ 311.000009179115295, 24.0, 30.0, 30.0 ],
 								"comment" : "",
 								"index" : 2
 							}
@@ -364,19 +364,19 @@ I hope this makes my next project that much easier to get started on.
 								"numoutlets" : 1,
 								"id" : "obj-2",
 								"outlettype" : [ "int" ],
-								"patching\_rect" : [ 192.833338856697083, 24.0, 30.0, 30.0 ],
+								"patching_rect" : [ 192.833338856697083, 24.0, 30.0, 30.0 ],
 								"comment" : "",
 								"index" : 1
 							}
 
-                       }
-],
-                   "lines" : [ 						{
-                           "patchline" : 							{
-                               "source" : [ "obj-6", 0 ],
-                               "destination" : [ "obj-16", 0 ],
-                               "order" : 0
-                           }
+						}
+ ],
+					"lines" : [ 						{
+							"patchline" : 							{
+								"source" : [ "obj-6", 0 ],
+								"destination" : [ "obj-16", 0 ],
+								"order" : 0
+							}
 
 						}
 , 						{
@@ -625,9 +625,9 @@ I hope this makes my next project that much easier to get started on.
 							"default" : 							{
 								"color" : [ 0.56078431372549, 0.737254901960784, 0.733333333333333, 1.0 ],
 								"fontname" : [ "Source Code Pro" ],
-								"textcolor\_inverse" : [ 0.925490196078431, 0.937254901960784, 0.956862745098039, 1.0 ],
+								"textcolor_inverse" : [ 0.925490196078431, 0.937254901960784, 0.956862745098039, 1.0 ],
 								"bgcolor" : [ 0.298039215686275, 0.337254901960784, 0.415686274509804, 1.0 ],
-								"locked\_bgcolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
+								"locked_bgcolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
 								"clearcolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
 								"bgfillcolor" : 								{
 									"type" : "gradient",
@@ -639,7 +639,7 @@ I hope this makes my next project that much easier to get started on.
 								}
 ,
 								"stripecolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
-								"editing\_bgcolor" : [ 0.231372549019608, 0.258823529411765, 0.32156862745098, 1.0 ],
+								"editing_bgcolor" : [ 0.231372549019608, 0.258823529411765, 0.32156862745098, 1.0 ],
 								"textcolor" : [ 0.847058823529412, 0.870588235294118, 0.913725490196078, 1.0 ],
 								"accentcolor" : [ 0.505882352941176, 0.631372549019608, 0.756862745098039, 1.0 ],
 								"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -652,14 +652,14 @@ I hope this makes my next project that much easier to get started on.
  ]
 				}
 ,
-				"saved\_object\_attributes" : 				{
+				"saved_object_attributes" : 				{
 					"description" : "",
 					"digest" : "",
 					"globalpatchername" : "",
 					"tags" : ""
 				}
 
-}
+			}
 
 		}
  ],
@@ -676,9 +676,9 @@ I hope this makes my next project that much easier to get started on.
 			"default" : 			{
 				"color" : [ 0.56078431372549, 0.737254901960784, 0.733333333333333, 1.0 ],
 				"fontname" : [ "Source Code Pro" ],
-				"textcolor\_inverse" : [ 0.925490196078431, 0.937254901960784, 0.956862745098039, 1.0 ],
+				"textcolor_inverse" : [ 0.925490196078431, 0.937254901960784, 0.956862745098039, 1.0 ],
 				"bgcolor" : [ 0.298039215686275, 0.337254901960784, 0.415686274509804, 1.0 ],
-				"locked\_bgcolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
+				"locked_bgcolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
 				"clearcolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
 				"bgfillcolor" : 				{
 					"type" : "gradient",
@@ -690,7 +690,7 @@ I hope this makes my next project that much easier to get started on.
 				}
 ,
 				"stripecolor" : [ 0.180392156862745, 0.203921568627451, 0.250980392156863, 1.0 ],
-				"editing\_bgcolor" : [ 0.231372549019608, 0.258823529411765, 0.32156862745098, 1.0 ],
+				"editing_bgcolor" : [ 0.231372549019608, 0.258823529411765, 0.32156862745098, 1.0 ],
 				"textcolor" : [ 0.847058823529412, 0.870588235294118, 0.913725490196078, 1.0 ],
 				"accentcolor" : [ 0.505882352941176, 0.631372549019608, 0.756862745098039, 1.0 ],
 				"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -703,4 +703,4 @@ I hope this makes my next project that much easier to get started on.
  ],
 	"classnamespace" : "box"
 }
-`~`
+```
