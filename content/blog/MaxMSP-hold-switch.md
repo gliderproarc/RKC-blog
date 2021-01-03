@@ -2,7 +2,7 @@
 title = "MaxMSP hold switch"
 author = ["Robert Clay"]
 date = 2021-01-03
-lastmod = 2021-01-03T11:48:10+09:00
+lastmod = 2021-01-03T11:51:51+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -64,7 +64,7 @@ I hope this makes my next project that much easier to get started on.
 
 ## The MaxMSP object for those interested {#the-maxmsp-object-for-those-interested}
 
-\`\`\`MAXMSP
+`~`
 {
 	"boxes" : [ 		{
 			"box" : 			{
@@ -703,4 +703,4 @@ I hope this makes my next project that much easier to get started on.
  ],
 	"classnamespace" : "box"
 }
-\`\`\`
+`~`

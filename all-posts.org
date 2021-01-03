@@ -545,7 +545,7 @@ keyboard used to do, but with the flexibility of being implemented in MaxMSP
 coda rather than tied up in a piece of hardware. I learned a lot about Max and
 I hope this makes my next project that much easier to get started on.
 **** The MaxMSP object for those interested
-```MAXMSP
+~~~
 {
 	"boxes" : [ 		{
 			"box" : 			{
@@ -1184,7 +1184,7 @@ I hope this makes my next project that much easier to get started on.
  ],
 	"classnamespace" : "box"
 }
-```
+~~~
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:
