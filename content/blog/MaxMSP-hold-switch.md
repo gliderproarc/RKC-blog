@@ -2,7 +2,7 @@
 title = "MaxMSP hold switch"
 author = ["Robert Clay"]
 date = 2021-01-03
-lastmod = 2021-01-05T20:00:12+09:00
+lastmod = 2021-01-09T11:01:21+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -14,7 +14,7 @@ draft = false
 
 Being a computer musician, I appreciate the ability to work with data as it suits me. I don't need to just accept a stream of midi and ask a software synthesizer to make sounds for me. I can manipulate that stream of data in interesting ways before I put it to use. One such use I found for this manipulation is replicating a feature of a keyboard I sold a few years back.
 
-I used to own a Roland JD-XA. It was a really analogue synth with some modern and cool features. Sadly, my audio recording set up was not up to doing it justice, and I ended up using it mostly as a controller. I sold it to get a Roli Seaboard instead and I am very happy with it. But I did miss a button on its front panel; the "hold" switch that went with the arpeggiator. The switch when used with the arpeggiator let you hold out the notes in a sequence even when you took you hands off the keys, but I liked the fact it wasn't tied to the arpeggiator itself. When it wasn't used with the arpeggiator, it acted like an "auto-sustain-pedal". Notes played legato were all sustained, and a new "set" of notes would trigger a re-pedal and the bee set of notes would sustain while the old notes would stop. It was super fun to use in conjunction with a two tier keyboard set up. I could play a piano like patch in my lower keyboard while the top board would be set to some sustaining patch that I could play a few notes on without needing to stand on a sustain pedal the whole time.
+I used to own a Roland JD-XA. It was a real analogue synth with some modern and cool features. Sadly, my audio recording set up was not up to doing it justice, and I ended up using it mostly as a controller. I sold it to get a Roli Seaboard instead and I am very happy with it. But I did miss a button on its front panel; the "hold" switch that went with the arpeggiator. The switch when used with the arpeggiator let you hold out the notes in a sequence even when you took your hands off the keys, but I liked the fact it wasn't tied to the arpeggiator itself. When it wasn't used with the arpeggiator, it acted like an "auto-sustain-pedal". Notes played legato were all sustained, and a new "set" of notes would trigger a re-pedal and the next set of notes would sustain while the old notes would stop. It was super fun to use in conjunction with a two tier keyboard set up. I could play a piano like patch in my lower keyboard while the top board would be set to some sustaining patch that I could play a few notes on without needing to stand on a sustain pedal the whole time.
 
 I was thinking I might be able to get something similar from other arpeggiators, so I didn't think much of it when I sold the board. But after a few attempts with a few arpeggiator plugins, I quickly realized that this wasn't how most arpeggiators worked. But I also knew I had Max4Live. I figured I could just make my own.
 
@@ -38,7 +38,7 @@ Generating a list of notes that were currently being held down on a keyboard
 connected to this utility proved really hard to make and deal with. I had
 considered making a dictionary where I added note-on events as entries and
 note-off events as a sign to remove the entry. But having worked with some
-Clojure at this point I wanted a solution that didn't rely on something mutable like this "dictionary" I was planning on relying on. Writing the "state of the midi stream with each new event lead to a huge mess of operation order. Do I read the dictionary before of after I compare the note coming in to the others to see if it's a note already in the list? Should the dictionary read be part of the clean up at the end of the chain? When does the note off list get generated? How I can generate that list without having the dictionary pass its contents all over the place? Do I need the contents of the dictionary in multiple places? It was a disaster.
+Clojure at this point I wanted a solution that didn't rely on something mutable like this "dictionary" I was planning on using. Writing the "state of the midi stream" with each new event lead to a huge mess of operation order. Do I read the dictionary before of after I compare the note coming in to the others to see if it's a note already in the list? Should the dictionary read be part of the clean up at the end of the chain? When does the note off list get generated? How I can generate that list without having the dictionary pass its contents all over the place? Do I need the contents of the dictionary in multiple places? It was a disaster.
 
 Imagining the problem was Max, I proceeded to wire up Max and Node and ClojureScript, hoping that a different language would have better support for what I was trying to do. But after spending more time with Max, I found a better way forward.
 

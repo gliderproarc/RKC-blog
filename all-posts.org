@@ -496,13 +496,12 @@ Node with Clojurescript and not JavaScript.
     :EXPORT_FILE_NAME: MaxMSP-hold-switch
     :EXPORT_DATE: 2021-01-03
     :END:
-
    [2021-01-03 Sun],#MaxMSP
 **** Making your own tools can be a rewarding challenge
 
 Being a computer musician, I appreciate the ability to work with data as it suits me. I don't need to just accept a stream of midi and ask a software synthesizer to make sounds for me. I can manipulate that stream of data in interesting ways before I put it to use. One such use I found for this manipulation is replicating a feature of a keyboard I sold a few years back.
 
-I used to own a Roland JD-XA. It was a really analogue synth with some modern and cool features. Sadly, my audio recording set up was not up to doing it justice, and I ended up using it mostly as a controller. I sold it to get a Roli Seaboard instead and I am very happy with it. But I did miss a button on its front panel; the "hold" switch that went with the arpeggiator. The switch when used with the arpeggiator let you hold out the notes in a sequence even when you took you hands off the keys, but I liked the fact it wasn't tied to the arpeggiator itself. When it wasn't used with the arpeggiator, it acted like an "auto-sustain-pedal". Notes played legato were all sustained, and a new "set" of notes would trigger a re-pedal and the bee set of notes would sustain while the old notes would stop. It was super fun to use in conjunction with a two tier keyboard set up. I could play a piano like patch in my lower keyboard while the top board would be set to some sustaining patch that I could play a few notes on without needing to stand on a sustain pedal the whole time.
+I used to own a Roland JD-XA. It was a real analogue synth with some modern and cool features. Sadly, my audio recording set up was not up to doing it justice, and I ended up using it mostly as a controller. I sold it to get a Roli Seaboard instead and I am very happy with it. But I did miss a button on its front panel; the "hold" switch that went with the arpeggiator. The switch when used with the arpeggiator let you hold out the notes in a sequence even when you took your hands off the keys, but I liked the fact it wasn't tied to the arpeggiator itself. When it wasn't used with the arpeggiator, it acted like an "auto-sustain-pedal". Notes played legato were all sustained, and a new "set" of notes would trigger a re-pedal and the next set of notes would sustain while the old notes would stop. It was super fun to use in conjunction with a two tier keyboard set up. I could play a piano like patch in my lower keyboard while the top board would be set to some sustaining patch that I could play a few notes on without needing to stand on a sustain pedal the whole time.
 
 I was thinking I might be able to get something similar from other arpeggiators, so I didn't think much of it when I sold the board. But after a few attempts with a few arpeggiator plugins, I quickly realized that this wasn't how most arpeggiators worked. But I also knew I had Max4Live. I figured I could just make my own.
 
@@ -524,7 +523,7 @@ Generating a list of notes that were currently being held down on a keyboard
 connected to this utility proved really hard to make and deal with. I had
 considered making a dictionary where I added note-on events as entries and
 note-off events as a sign to remove the entry. But having worked with some
-Clojure at this point I wanted a solution that didn't rely on something mutable like this "dictionary" I was planning on relying on. Writing the "state of the midi stream with each new event lead to a huge mess of operation order. Do I read the dictionary before of after I compare the note coming in to the others to see if it's a note already in the list? Should the dictionary read be part of the clean up at the end of the chain? When does the note off list get generated? How I can generate that list without having the dictionary pass its contents all over the place? Do I need the contents of the dictionary in multiple places? It was a disaster.
+Clojure at this point I wanted a solution that didn't rely on something mutable like this "dictionary" I was planning on using. Writing the "state of the midi stream" with each new event lead to a huge mess of operation order. Do I read the dictionary before of after I compare the note coming in to the others to see if it's a note already in the list? Should the dictionary read be part of the clean up at the end of the chain? When does the note off list get generated? How I can generate that list without having the dictionary pass its contents all over the place? Do I need the contents of the dictionary in multiple places? It was a disaster.
 
 Imagining the problem was Max, I proceeded to wire up Max and Node and ClojureScript, hoping that a different language would have better support for what I was trying to do. But after spending more time with Max, I found a better way forward.
 
@@ -1185,6 +1184,116 @@ I hope this makes my next project that much easier to get started on.
 	"classnamespace" : "box"
 }
 #+END_EXAMPLE
+*** DONE Keyboard shortcuts
+    :PROPERTIES:
+    :EXPORT_FILE_NAME: keyboard-shortcuts
+    :EXPORT_DATE: 2021-01-09
+    :END:
+   [2021-01-09 Sat],#keybindings
+**** Keyboards are not the perfect input device
+
+...but I sure do like them better than mice. I was listening to youtube talk by
+an amazing speaker who was using a story about the tech industry to make his
+point. He said that the mouse and the graphic user interface (GUI) democratized
+the computer. I think he made a good point. The fact people can work with a
+mouse and not need to interact with a computer in terms of text and code
+certainly opened the doors for myriads of people to harness the power of the
+computer. And I think that is great. But I also see how stopping at the mouse is
+missing a huge opportunity when it comes to interacting with a computer.
+
+**** Using a keyboard is usually faster than a mouse
+
+If you do some searching online, you will see many people who argue that a
+keyboard driven paradigm for working with your computer is needlessly
+complicated. Their arguments tend to cover points like:
+    1. I need to reach for the mouse for my GUI only apps anyway.
+    2. Keyboard shortcuts aren't standardized. I can't remember them all.
+    3. The time you save really isn't that much.
+
+#1 sure, I agree. One of the reasons I don't like the internet is because of how
+mouse-driven it is. There are ways around it (sometimes) but most of the
+internet seems to be built for those who only "click". I don't think this means
+it's worth abandoning keyboard-based interactions when they are available.
+
+#2 Also true. This one bugs me to no end some days, but I have found that many
+of my favorite pieces of software also let me re-map keyboard short cuts to keep
+things more consistent.
+
+#3 This one I disagree with. Many years ago I went to a (Apple's) Logic Pro
+music software training center in California. I went there to get a
+certification, which I passed. The other people I took the test with were
+professional music makers, and their time is money. Once gentleman put it this
+way:
+
+"...if you have a task you do a hundred times a day and you can save a second
+off the time it takes you to do it, that's 100 seconds a day. Multiply that over
+weeks and months and you are saving hours of time. Think of how long it takes
+you to move your hand from the keyboard to the mouse. That time is what you are
+saving by using a keyboard shortcut."
+
+**** Shortcuts help because software is complicated
+
+If software were simpler, I don't think there would as much of a need for
+keyboard shortcuts. At some level, keyboard shortcuts are another way to access
+menus and configurations. If there were less things to configure or access
+through menus, I don't think shortcuts would be as effective. But software has a
+lot going on, and only so much can be shown with the visual. Some of the
+complexity is better hidden away where you can't see it. So let's look at
+something pretty simple. Saving a file:
+
+|   | mouse                  | keyboard shortcut         |
+|---+------------------------+---------------------------|
+| 1 | reach for mouse        | reach for keyboard        |
+| 2 | move mouse to menu-bar | [C-s] or equivalent       |
+| 3 | click on "file" menu   | confirm save with [enter] |
+| 4 | move mouse to "save"   |                           |
+| 5 | click on "save"        |                           |
+| 6 | move mouse to confirm  |                           |
+| 7 | click on confirm       |                           |
+
+This is only a fairly simple example. But simple changes from moving a mouse
+between elements of a GUI to moving you ringers between keys on a keyboard can
+make a big difference over many many repetitions of the same operation.
+
+**** If your software has it, use a fuzzy-matching contextual menu
+
+While I can't use Emacs for most of what I do day in and day out on a computer,
+I have found an increasing fondness for a command it has called "Meta X" (or
+[M-x] in emacs binding notation). It pulls up a prompt allowing you to call
+items from the numerous menus in the program... by name. You might say it takes
+longer to type the name "calc-dispatch" than it does to move a mouse and click,
+but being able to call it by name means I don't need to remember where it's
+located. I just need to know the name. And because the command has been modified
+to use fuzzy matching, I don't need to write the whole name. I can start typing
+it and hit enter when it's the top result of commands with those letters in it.
+Which is why I have also decided to use the Vivaldi web browser.
+
+Many people will brag about how fast their browsers are. How quickly they can
+load web-pages. And by the same argument above (many repetitions of the same
+things make for big time savings in the long run) faster page load times should
+be king when it comes to web-browsing. Be that as it may, I like Vivaldi because
+it has something similar to the "Meta X" command in Emacs that lets me access
+nearly all the functionality of the browser without ever leaving the home row of
+my keyboard. If I know the exact keyboard shortcut I can use that instead, but
+being able to call menu items without needing to use my mouse (AND I can call
+menu items that have no shortcut assigned to them!) is very nice indeed.
+
+
+**** ...and if you can configure and use key-bindings, they are totally worth it.
+
+It used to be that a highly keyboard centric text editor meant you needed to use
+Vim or Emacs. These are still both amazing pieces of software worth looking
+into, but you can get vim-like keybindings in many other text editors these
+days. VS-code, perhaps the most popular text-editor at the moment, even has a
+package called "VSpaceCode" https://github.com/VSpaceCode/VSpaceCode which
+provides many of the editor bindings that come with a highly popular Emacs
+distribution. Keyboard shortcuts don't only exist for complicated esoteric
+software. And while I feel Emacs is one of the best keyboard-centric interfaces
+I have ever used, I don't think it's for everyone. But VS Coda certainly DOES
+aim to be the text-editor for everyone. And while taking the time to learn how
+to do what you used to do with a mouse at the keyboard takes time I have found
+it makes a world of difference in how quickly, easily, and enjoyably I get to
+use my software.
 * Footnotes
 * COMMENT Local Variables :ARCHIVE:
 # Local Variables:
