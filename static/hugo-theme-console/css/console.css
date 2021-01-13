@@ -32,19 +32,19 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #434c5e;
+    --global-font-color: #d8dee9;
     --mono-font-stack: Source Code Pro, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Source Code Pro, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
-    --code-bg-color: #d8dee9;
+    --code-bg-color: #3b4252;
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #434c5e;
+        --global-font-color: #e5e9f0;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -73,7 +73,7 @@
 body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
-    background-color: #d8dee9;
+    background-color: #3b4252;
     margin-bottom: 75px;
 }
 
