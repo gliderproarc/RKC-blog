@@ -32,19 +32,19 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #444;
+    --global-font-color: #eceff4;
     --mono-font-stack: Source Code Pro, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Source Code Pro, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
-    --code-bg-color: #fff;
+    --code-bg-color: #3b4252;
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #444;
+        --global-font-color: #eceff4;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -58,7 +58,7 @@
 }
 
 .box-masonry .box-masonry-image {
-    background: #fff;
+    background: #3b4252;
 }
 
 .box-masonry,
@@ -73,7 +73,7 @@
 body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
-    background-color: #fff;
+    background-color: #3b4252;
     margin-bottom: 75px;
 }
 
@@ -99,13 +99,13 @@ h1 {
 
 .content-column-content p,
 .content-column-content li {
-    color: #666;
+    color: #8fbcbb;
 }
 
 .btn-ghost {
-    color: #666;
+    color: #88c0d0;
     background-color: transparent;
-    border-color: #333;
+    border-color: #81a1c1;
     font-weight: 400;
     font-family: var(--font-stack);
     padding: 6px 12px;
@@ -117,12 +117,12 @@ h1 {
 }
 
 .content-column-content .command {
-    color: #aaa;
+    color: #5e81ac;
 }
 
 p.social a {
     margin: 0 0 10px 0;
-    color: #fff;
+    color: #bf616a;
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -131,7 +131,7 @@ p.social a {
     font-size: 25px;
     text-align: center;
     vertical-align: bottom;
-    color: #999999;
+    color: #d08770;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
