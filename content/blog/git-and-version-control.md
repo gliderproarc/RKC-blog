@@ -2,7 +2,7 @@
 title = "Git and Version control"
 author = ["Robert Clay"]
 date = 2021-01-17
-lastmod = 2021-01-14T21:39:19+09:00
+lastmod = 2021-01-14T21:43:44+09:00
 categories = ["topic"]
 draft = true
 +++
@@ -37,7 +37,7 @@ want to have him fly somewhere; B.
     -   A
     -   B
 
-Hmn... no that's no good. B is ****SUPER\***** interesting. He flew to the moon.
+Hmn... no that's no good. B is ****SUPER**** interesting. He flew to the moon.
 Let's make him a pilot. Let's change A to "intro".
 
 -   My\_book.txt

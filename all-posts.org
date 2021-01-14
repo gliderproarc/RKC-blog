@@ -1326,7 +1326,7 @@ want to have him fly somewhere; B.
   - A
   - B
 
-Hmn... no that's no good. B is **SUPER*** interesting. He flew to the moon.
+Hmn... no that's no good. B is **SUPER** interesting. He flew to the moon.
 Let's make him a pilot. Let's change A to "intro".
 
 - My_book.txt
