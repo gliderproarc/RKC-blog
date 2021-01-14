@@ -1,8 +1,8 @@
 +++
-title = "Git and Version control"
+title = "Version control"
 author = ["Robert Clay"]
 date = 2021-01-17
-lastmod = 2021-01-14T21:46:56+09:00
+lastmod = 2021-01-14T21:49:03+09:00
 categories = ["topic"]
 draft = true
 +++

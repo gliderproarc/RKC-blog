@@ -1294,9 +1294,9 @@ aim to be the text-editor for everyone. And while taking the time to learn how
 to do what you used to do with a mouse at the keyboard takes time I have found
 it makes a world of difference in how quickly, easily, and enjoyably I get to
 use my software.
-*** TODO Git and Version control
+*** TODO Version control
     :PROPERTIES:
-    :EXPORT_FILE_NAME: git-and-version-control
+    :EXPORT_FILE_NAME: version-control
     :EXPORT_DATE: 2021-01-17
     :END:
    [2021-01-17 Sun],#git
