@@ -2,7 +2,7 @@
 title = "Version control"
 author = ["Robert Clay"]
 date = 2021-01-14
-lastmod = 2021-01-14T22:36:46+09:00
+lastmod = 2021-01-14T22:41:40+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -16,7 +16,7 @@ There are lots of pieces of software that work this way now, but it's rare
 enough that I feel a few words on it might help those less familiar with it. I am
 talking about the ability to save your work and not worry about it, knowing you
 can always get what you just saved some day if you really need to. Some software
-calls it backups, some software calls it states, I like the way git calls it.
+calls it backups, some software calls it states, I like the way [git](<https://git-scm.com/>) calls it.
 
 Imagine you are writing a really simple book. Let's call it "My book".
 
@@ -27,8 +27,8 @@ Great. Now you write a section. Let's call it A.
 -   My-book.txt
     -   A
 
-Once you save your work, you have lost the blank version of My\_book.txt. You
-only have one current and correct version of My\_book.txt. In most cases this is
+Once you save your work, you have lost the blank version of My-book.txt. You
+only have one current and correct version of My-book.txt. In most cases this is
 fine. But it can be really nice to have multiple versions of the same document.
 Let's say this is a story and in A the main character learn to fly. So in B you
 want to have him fly somewhere; B.
@@ -72,8 +72,8 @@ it, please use it. It's really nice. And if you are into code, use git. Git is
 hard and complicated, and frustrating, and so so worth it.
 
 I didn't set out learning git because I wanted to learn to code. I set out to
-learn git because I wanted to learn what this "magit" thing built into spacemacs
-was. But what I discovered was a revelation that makes Org mode and Emacs my
+learn git because I wanted to learn what this "magit" thing built into [spacemacs](<https://www.spacemacs.org/>)
+was. But what I discovered was a revelation that makes [Org mode](<https://orgmode.org/>) and Emacs my
 idea of an ideal text environment.
 
 Git is very complicated software, but on the surface you can say it works be
