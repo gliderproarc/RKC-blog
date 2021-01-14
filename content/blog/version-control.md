@@ -4,7 +4,7 @@ author = ["Robert Clay"]
 date = 2021-01-17
 lastmod = 2021-01-14T21:49:03+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2021-01-17 Sun]</span></span>,#git
