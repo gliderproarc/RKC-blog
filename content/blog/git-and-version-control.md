@@ -2,7 +2,7 @@
 title = "Git and Version control"
 author = ["Robert Clay"]
 date = 2021-01-17
-lastmod = 2021-01-14T21:43:44+09:00
+lastmod = 2021-01-14T21:46:56+09:00
 categories = ["topic"]
 draft = true
 +++
@@ -20,11 +20,11 @@ calls it backups, some software calls it states, I like the way git calls it.
 
 Imagine you are writing a really simple book. Let's call it "My book".
 
--   My\_book.txt
+-   My-book.txt
 
 Great. Now you write a section. Let's call it A.
 
--   My\_book.txt
+-   My-book.txt
     -   A
 
 Once you save your work, you have lost the blank version of My\_book.txt. You
@@ -33,36 +33,36 @@ fine. But it can be really nice to have multiple versions of the same document.
 Let's say this is a story and in A the main character learn to fly. So in B you
 want to have him fly somewhere; B.
 
--   My\_book.txt
+-   My-book.txt
     -   A
     -   B
 
 Hmn... no that's no good. B is ****SUPER**** interesting. He flew to the moon.
 Let's make him a pilot. Let's change A to "intro".
 
--   My\_book.txt
+-   My-book.txt
     -   Intro
     -   B
 
 Now if you don't work with versions you might be tempted to make something like
 the following:
 
--   My\_book\_old.txt
+-   My-book\_old.txt
     -   A
     -   B
 
--   My\_book\_new.txt
+-   My-book\_new.txt
     -   Intro
     -   B
 
 Now you have two files. Once has "A", the other has "intro". If you don't keep
 these two files you stand to loose "A". What if you didn't like A yesterday,
 but you want to bring A back tomorrow? What if you already hit save on
-My\_book.txt after you deleted A? What do you do now? Well if you have an "old"
+My-book.txt after you deleted A? What do you do now? Well if you have an "old"
 and "new" version, you still have A, but now you have another problem. You have
 two files to keep track of, and know what to do with these words can get kind of
 confusing when you open you folder with 50 files and open up
-"My\_book\_with\_the\_cool\_ending.txt" to see if this is the one you were looking for.
+"My-book-with-the-cool-ending.txt" to see if this is the one you were looking for.
 
 
 ## There has to be a better way {#there-has-to-be-a-better-way}
@@ -84,17 +84,17 @@ to make lots and lots of copies of the same information.
 
 So while a traditional file might look like this
 
--   save\_1:  A,
--   save\_2:  A,B,
--   save\_3:  A,B,C
--   save\_4:  A,B,C,D
+-   save-1:  A,
+-   save-2:  A,B,
+-   save-3:  A,B,C
+-   save-4:  A,B,C,D
 
 git would store it as something more like:
 
--   save\_1:  A
--   save\_2:    B
--   save\_3:      C
--   save\_4:        D
+-   save-1:  A
+-   save-2:    B
+-   save-3:      C
+-   save-4:        D
 
 And if you were to ask git for the current state of your file, it would give you
 the culmination of all four saves, or A,B,C, and D. But if you asked for save\_2,
