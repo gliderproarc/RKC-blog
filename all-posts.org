@@ -1299,7 +1299,7 @@ use my software.
     :EXPORT_FILE_NAME: git-and-version-control
     :EXPORT_DATE: 2021-01-17
     :END:
-   [2021-01-17 Sat],#git
+   [2021-01-14 Thu],#git
 **** What is version control?
 There are lots of pieces of software that work this way now, but it's rare
 enough that I feel a few words on it might help those less familiar with it. I am
