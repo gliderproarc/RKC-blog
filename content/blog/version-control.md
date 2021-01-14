@@ -1,13 +1,8 @@
 +++
 title = "Version control"
 author = ["Robert Clay"]
-<<<<<<< HEAD:content/blog/git-and-version-control.md
 date = 2021-01-14
-lastmod = 2021-01-14T22:22:21+09:00
-=======
-date = 2021-01-17
-lastmod = 2021-01-14T22:00:55+09:00
->>>>>>> main:content/blog/version-control.md
+lastmod = 2021-01-14T22:36:46+09:00
 categories = ["topic"]
 draft = false
 +++

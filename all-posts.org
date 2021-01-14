@@ -1297,13 +1297,9 @@ use my software.
 *** DONE Version control
     :PROPERTIES:
     :EXPORT_FILE_NAME: version-control
-    :EXPORT_DATE: 2021-01-17
+    :EXPORT_DATE: 2021-01-14
     :END:
-<<<<<<< HEAD
-   [2021-01-14 Thu],#git
-=======
-   [2021-01-17 Sun],#git
->>>>>>> main
+[2021-01-14 Thu],#git
 **** What is version control?
 There are lots of pieces of software that work this way now, but it's rare
 enough that I feel a few words on it might help those less familiar with it. I am
