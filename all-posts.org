@@ -47,7 +47,7 @@
 
     This article *will* be exported but will be marked ~draft = true~ in the front matter.
 
-*** DONE First post
+*** TODO First post
     :PROPERTIES:
     :EXPORT_FILE_NAME: bobby-test-post
     :EXPORT_DATE: 2020-12-13
