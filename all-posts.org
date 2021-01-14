@@ -47,7 +47,7 @@
 
     This article *will* be exported but will be marked ~draft = true~ in the front matter.
 
-*** TODO First post
+*** DONE First post
     :PROPERTIES:
     :EXPORT_FILE_NAME: bobby-test-post
     :EXPORT_DATE: 2020-12-13
@@ -1294,7 +1294,7 @@ aim to be the text-editor for everyone. And while taking the time to learn how
 to do what you used to do with a mouse at the keyboard takes time I have found
 it makes a world of difference in how quickly, easily, and enjoyably I get to
 use my software.
-*** TODO Version control
+*** DONE Version control
     :PROPERTIES:
     :EXPORT_FILE_NAME: version-control
     :EXPORT_DATE: 2021-01-17
@@ -1416,8 +1416,6 @@ are interested in version control for the extremely patient, consider learning
 git in the terminal. And if you get tired of that, try Emacs and Magit. I feels
 now like I haven't really "saved" my work if it's not committed to at least some
 branch in git.
-
-
 * Footnotes
 
 * COMMENT Local Variables :ARCHIVE:

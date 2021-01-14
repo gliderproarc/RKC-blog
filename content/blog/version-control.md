@@ -2,7 +2,7 @@
 title = "Version control"
 author = ["Robert Clay"]
 date = 2021-01-17
-lastmod = 2021-01-14T21:49:03+09:00
+lastmod = 2021-01-14T22:00:55+09:00
 categories = ["topic"]
 draft = false
 +++

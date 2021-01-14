@@ -2,9 +2,9 @@
 title = "First post"
 author = ["Robert Clay"]
 date = 2020-12-13
-lastmod = 2021-01-14T21:51:31+09:00
+lastmod = 2021-01-14T22:00:14+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-12-15 Tue]</span></span>, #first\_post
