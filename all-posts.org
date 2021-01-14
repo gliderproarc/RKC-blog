@@ -1294,12 +1294,12 @@ aim to be the text-editor for everyone. And while taking the time to learn how
 to do what you used to do with a mouse at the keyboard takes time I have found
 it makes a world of difference in how quickly, easily, and enjoyably I get to
 use my software.
-*** DONE Git and Version control
+*** TODO Git and Version control
     :PROPERTIES:
     :EXPORT_FILE_NAME: git-and-version-control
     :EXPORT_DATE: 2021-01-17
     :END:
-   [2021-01-17 Sat],#git
+   [2021-01-17 Sun],#git
 **** What is version control?
 There are lots of pieces of software that work this way now, but it's rare
 enough that I feel a few words on it might help those less familiar with it. I am

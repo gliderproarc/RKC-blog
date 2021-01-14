@@ -2,9 +2,9 @@
 title = "Git and Version control"
 author = ["Robert Clay"]
 date = 2021-01-17
-lastmod = 2021-01-14T21:20:40+09:00
+lastmod = 2021-01-14T21:39:19+09:00
 categories = ["topic"]
-draft = false
+draft = true
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2021-01-17 Sun]</span></span>,#git
@@ -16,7 +16,7 @@ There are lots of pieces of software that work this way now, but it's rare
 enough that I feel a few words on it might help those less familiar with it. I am
 talking about the ability to save your work and not worry about it, knowing you
 can always get what you just saved some day if you really need to. Some software
-calls it backups, some software calls it states, I like the way [git](<https://git-scm.com/>) calls it.
+calls it backups, some software calls it states, I like the way git calls it.
 
 Imagine you are writing a really simple book. Let's call it "My book".
 
@@ -72,8 +72,8 @@ it, please use it. It's really nice. And if you are into code, use git. Git is
 hard and complicated, and frustrating, and so so worth it.
 
 I didn't set out learning git because I wanted to learn to code. I set out to
-learn git because I wanted to learn what this ["magit"](<https://magit.vc/>) thing built into [spacemacs](<https://www.spacemacs.org/>)
-was. But what I discovered was a revelation that makes [Org mode](<https://orgmode.org/>) and Emacs my
+learn git because I wanted to learn what this "magit" thing built into spacemacs
+was. But what I discovered was a revelation that makes Org mode and Emacs my
 idea of an ideal text environment.
 
 Git is very complicated software, but on the surface you can say it works be
