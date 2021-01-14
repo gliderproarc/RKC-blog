@@ -1,13 +1,13 @@
 +++
 title = "Version control"
 author = ["Robert Clay"]
-date = 2021-01-14
+date = 2021-01-17
 lastmod = 2021-01-14T22:00:55+09:00
 categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-01-14 Thu]</span></span>,#git
+<span class="timestamp-wrapper"><span class="timestamp">[2021-01-17 Sun]</span></span>,#git
 
 
 ## What is version control? {#what-is-version-control}
