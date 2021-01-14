@@ -4,7 +4,7 @@ author = ["Robert Clay"]
 date = 2020-12-13
 lastmod = 2020-12-15T22:34:11+09:00
 categories = ["topic"]
-draft = false
+draft = true
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2020-12-15 Tue]</span></span>, #first\_post
