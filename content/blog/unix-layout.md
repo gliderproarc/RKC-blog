@@ -2,7 +2,7 @@
 title = "Unix layout Keyboards"
 author = ["Robert Clay"]
 date = 2021-01-30
-lastmod = 2021-01-31T09:36:11+09:00
+lastmod = 2021-01-31T10:40:13+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -22,11 +22,9 @@ that much could lead to problems. I was surprised to hear that a lot Emacs users
 used their caps-lock key in place of the normal control key...which they also
 use with their pinky.
 
-Then when I decided to try it (by heading into the registry settings of Windows
-
-1.  I realized what made the caps key easier on my pinky. It was the weight.
-
-When reaching down to the bottom of the keyboard to reach the normal control
+Then when I decided to try it (by heading into the registry settings of
+Windows 10) I realized what made the caps key easier on my pinky. It was the
+weight. When reaching down to the bottom of the keyboard to reach the normal control
 key, I was putting more of the weight of my entire hand into the gesture,
 and while holding the key down, I would tend to rest the weight of my hand on
 that pinky while I rotated the rest of my hand to connect the key to the next
