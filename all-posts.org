@@ -1508,6 +1508,7 @@ very happy to see how well it functions as a package manage in WSL on Windows.
     :EXPORT_FILE_NAME: unix-layout
     :EXPORT_DATE: 2021-01-30
     :END:
+[2021-01-30 Sat],#unix
 **** Do you remember the last time you actually used your caps-lock key?
 I didn't really give it much thought until I started using Emacs, but I would
 love to have a control key where it is easier to use. I have been a fan of

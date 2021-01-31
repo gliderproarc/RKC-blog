@@ -2,10 +2,13 @@
 title = "Unix layout Keyboards"
 author = ["Robert Clay"]
 date = 2021-01-30
-lastmod = 2021-01-31T10:40:13+09:00
+lastmod = 2021-01-31T18:52:05+09:00
 categories = ["topic"]
 draft = false
 +++
+
+<span class="timestamp-wrapper"><span class="timestamp">[2021-01-30 Sat]</span></span>,#unix
+
 
 ## Do you remember the last time you actually used your caps-lock key? {#do-you-remember-the-last-time-you-actually-used-your-caps-lock-key}
 
