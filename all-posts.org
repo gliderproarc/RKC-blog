@@ -1558,6 +1558,58 @@ might not be worth it for you. If you are on a Mac, there is an OS level setting
 you can use to turn your caps key into a control key (or at least there was in
 older versions of MacOS). Maybe one day the caps lock key will find a new home
 in a slightly less prominent place on the standard computer keyboard.
+*** TODO Org-mode table allignment with non-latin characters
+    :PROPERTIES:
+    :EXPORT_FILE_NAME: unix-layout
+    :EXPORT_DATE: 2021-02-06
+    :END:
+[2021-01-30 Sat],#org-mode
+**** Org-mode tip
+This article won't mean much if you don't use or intent to use Org-mode, and it
+means even less for you if you only write in a language that uses latin
+characters. But if you do write things like おそれいれますが or 可能性 AND you
+want to put them in an Org mode table, then this is for you.
+
+I was using Org mode for a table at work, and I noticed that the alignment was
+off when Japanese characters were present in the table.
+
+*you need to view this in a mono-space font for it to look right but here goes
+
+
+#+begin_example
+| Name | Age |
+|------+-----|
+| Bill |   3 |
+| Ann  |  30 |
+| John |  78 |
+#+end_example
+
+That looks just fine, but you might see some alignment errors depending on your
+font for this next table
+
+#+begin_example
+| 名前       | 年齢 |
+|------------+------|
+| ジョ       |    4 |
+| ココロ     |   29 |
+| ハビエルア |   43 |
+#+end_example
+
+If that doesn't make a nice square, you might have a font that doesn't have a
+proper mono-space size for these asian characters. But there is hope for Emacs
+users. Emacs let's you set all kinds of things. Once of them is the face for
+fonts used in various places in Emacs. If you are using Doom Emacs, you can
+include something like this in your ".config.el":
+
+#+name:org-table-config
+#+begin_src elisp
+(custom-theme-set-faces
+ 'user
+ '(org-table ((t :family "Inconsolata"))))
+#+end_src
+
+Inconsolata might not be your favorite font, but this will get enough of the
+characters you need to use Japanese in an Org-mode table.
 * Footnotes
 
 * COMMENT Local Variables :ARCHIVE:
