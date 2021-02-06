@@ -30,6 +30,14 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'IBM Plex sans';
+    src: url('../font/IMBPLexSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
 :root {
     --global-font-size: 16px;
     --global-font-color: #d8dee9;
