@@ -1,8 +1,8 @@
 +++
 title = "Org-mode table alignment with non-latin characters"
 author = ["Robert Clay"]
-date = 2021-02-07
-lastmod = 2021-02-07T10:48:10+09:00
+date = 2021-02-06
+lastmod = 2021-02-07T10:51:10+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -19,10 +19,6 @@ want to put them in an Org mode table, then this is for you.
 
 I was using Org mode for a table at work, and I noticed that the alignment was
 off when Japanese characters were present in the table.
-
-`* you need to view this in a mono-space font for it to look right but here goes`
-`** you may also find that you still have alignment issues if you mix characters
-like か and "any english letter"`
 
 ```text
 | Name | Age |
@@ -58,3 +54,8 @@ include something like this in your ".config.el":
 
 Inconsolata might not be your favorite font, but this will get enough of the
 characters you need to use Japanese in an Org-mode table.
+
+> `* you need to view this in a mono-space font for it to look right but here goes`
+>
+> `** you may also find that you still have alignment issues if you mix characters
+> like か and "any english letter"`
