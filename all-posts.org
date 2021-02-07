@@ -1558,10 +1558,10 @@ might not be worth it for you. If you are on a Mac, there is an OS level setting
 you can use to turn your caps key into a control key (or at least there was in
 older versions of MacOS). Maybe one day the caps lock key will find a new home
 in a slightly less prominent place on the standard computer keyboard.
-*** TODO Org-mode table allignment with non-latin characters
+*** DONE Org-mode table alignment with non-latin characters
     :PROPERTIES:
     :EXPORT_FILE_NAME: unix-layout
-    :EXPORT_DATE: 2021-02-06
+    :EXPORT_DATE: 2021-02-07
     :END:
 [2021-01-30 Sat],#org-mode
 **** Org-mode tip
@@ -1573,8 +1573,9 @@ want to put them in an Org mode table, then this is for you.
 I was using Org mode for a table at work, and I noticed that the alignment was
 off when Japanese characters were present in the table.
 
-*you need to view this in a mono-space font for it to look right but here goes
-
+~* you need to view this in a mono-space font for it to look right but here goes~
+~** you may also find that you still have alignment issues if you mix characters
+like か and "any english letter"~
 
 #+begin_example
 | Name | Age |

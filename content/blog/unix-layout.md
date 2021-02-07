@@ -1,10 +1,10 @@
 +++
-title = "Org-mode table allignment with non-latin characters"
+title = "Org-mode table alignment with non-latin characters"
 author = ["Robert Clay"]
-date = 2021-02-06
-lastmod = 2021-02-04T20:10:23+09:00
+date = 2021-02-07
+lastmod = 2021-02-07T10:48:10+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2021-01-30 Sat]</span></span>,#org-mode
@@ -20,7 +20,9 @@ want to put them in an Org mode table, then this is for you.
 I was using Org mode for a table at work, and I noticed that the alignment was
 off when Japanese characters were present in the table.
 
-\*you need to view this in a mono-space font for it to look right but here goes
+`* you need to view this in a mono-space font for it to look right but here goes`
+`** you may also find that you still have alignment issues if you mix characters
+like か and "any english letter"`
 
 ```text
 | Name | Age |
@@ -46,3 +48,13 @@ proper mono-space size for these asian characters. But there is hope for Emacs
 users. Emacs let's you set all kinds of things. Once of them is the face for
 fonts used in various places in Emacs. If you are using Doom Emacs, you can
 include something like this in your ".config.el":
+
+<a id="code-snippet--org-table-config"></a>
+```elisp
+(custom-theme-set-faces
+ 'user
+ '(org-table ((t :family "Inconsolata"))))
+```
+
+Inconsolata might not be your favorite font, but this will get enough of the
+characters you need to use Japanese in an Org-mode table.
