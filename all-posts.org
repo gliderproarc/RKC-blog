@@ -1609,10 +1609,10 @@ Inconsolata might not be your favorite font, but this will get enough of the
 characters you need to use Japanese in an Org-mode table.
 
    #+begin_quote
-~* you need to view this in a mono-space font for it to look right but here goes~
++ you need to view this in a mono-space font for it to look right but here goes
 
-~** you may also find that you still have alignment issues if you mix characters
-like か and "any english letter"~
+++ you may also find that you still have alignment issues if you mix characters
+like か and "any english letter"
    #+end_quote
 * Footnotes
 
