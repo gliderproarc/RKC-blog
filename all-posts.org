@@ -1614,10 +1614,10 @@ characters you need to use Japanese in an Org-mode table.
 ++ you may also find that you still have alignment issues if you mix characters
 like か and "any english letter"
    #+end_quote
-*** TODO Blogging
+*** DONE Blogging
     :PROPERTIES:
     :EXPORT_FILE_NAME: blogging
-    :EXPORT_DATE: 2021-02-12
+    :EXPORT_DATE: 2021-02-13
     :END:
    [2021-02-13 Sat],#blog
 **** Yeah I know... a blog post about blogging is kind of redundant

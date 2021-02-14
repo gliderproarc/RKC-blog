@@ -1,10 +1,10 @@
 +++
 title = "Blogging"
 author = ["Robert Clay"]
-date = 2021-02-12
-lastmod = 2021-02-13T18:18:39+09:00
+date = 2021-02-13
+lastmod = 2021-02-14T18:14:37+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2021-02-13 Sat]</span></span>,#blog
