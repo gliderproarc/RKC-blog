@@ -2,7 +2,7 @@
 title = "Blogging"
 author = ["Robert Clay"]
 date = 2021-02-13
-lastmod = 2021-02-14T18:14:37+09:00
+lastmod = 2021-02-27T16:40:08+09:00
 categories = ["topic"]
 draft = false
 +++
