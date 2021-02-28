@@ -1693,7 +1693,7 @@ to Live 11 Suite.
 I spend many days trying to get lists of things to fit into lists somewhere else,
 and to have a hardware midi controller talking to a DAW, which tells a
 synthesizer made by another company send audio back to a driver, running a
-hardware audio interface, and it all just works, I am impressed.
+hardware audio interface, and it all just works, I am very impressed... haha.
 
 It's not perfect, somethings don't work the way I would expect them to, but when
 it doesn't got right on the inside, I as the user rarely see a huge
