@@ -1661,9 +1661,9 @@ as many people as you can.
 *** DONE Live 11
     :PROPERTIES:
     :EXPORT_FILE_NAME: live-11
-    :EXPORT_DATE: 2021-02-27
+    :EXPORT_DATE: 2021-02-26
     :END:
-   [2021-02-27 Sat],#music
+   [2021-02-26 Fri],#music
 **** Live 11 is really impressive
 I may have never mentioned it here, but I was a music major in college. Music is
 what I do, and will always be part of where most of my focus and energy in

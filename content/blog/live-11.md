@@ -1,13 +1,13 @@
 +++
 title = "Live 11"
 author = ["Robert Clay"]
-date = 2021-02-27
-lastmod = 2021-02-27T16:39:53+09:00
+date = 2021-02-26
+lastmod = 2021-02-28T21:49:02+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-02-27 Sat]</span></span>,#music
+<span class="timestamp-wrapper"><span class="timestamp">[2021-02-26 Fri]</span></span>,#music
 
 
 ## Live 11 is really impressive {#live-11-is-really-impressive}
@@ -44,7 +44,7 @@ to Live 11 Suite.
 I spend many days trying to get lists of things to fit into lists somewhere else,
 and to have a hardware midi controller talking to a DAW, which tells a
 synthesizer made by another company send audio back to a driver, running a
-hardware audio interface, and it all just works, I am impressed.
+hardware audio interface, and it all just works, I am very impressed... haha.
 
 It's not perfect, somethings don't work the way I would expect them to, but when
 it doesn't got right on the inside, I as the user rarely see a huge
