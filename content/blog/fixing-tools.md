@@ -2,7 +2,7 @@
 title = "Fixing tools"
 author = ["Robert Clay"]
 date = 2021-03-07
-lastmod = 2021-03-07T12:25:48+09:00
+lastmod = 2021-03-08T08:43:19+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -17,39 +17,16 @@ had just heard about, and I got an error. It wasn't a problem with my code. The
 code was fine. The problem was with my tool. The problem lied somewhere is the
 line of:
 
+-   Windows
 
-### Windows {#windows}
-
-
-#### WSL2 {#wsl2}
-
-<!--list-separator-->
-
--  Pengwin
-
-    <!--list-separator-->
-
-    -  Emacs
-
-        <!--list-separator-->
-
-        -  Org-mode configuration
-
-    <!--list-separator-->
-
-    -  Java
-
-        <!--list-separator-->
-
-        -  Java configuration
-
-    <!--list-separator-->
-
-    -  Clojure
-
-        <!--list-separator-->
-
-        -  Project configuration
+~~+ WSL2
+++~~ Pengwin
+~~++~~ Emacs
+~~~~+~~~~ Org-mode configuration
+~~++~~ Java
+~~~~+~~~~ Java configuration
+~~++~~ Clojure
+~~~~+~~~~ Project configuration
 
 
 ## My Tools tend to give me issues like this quite a bit {#my-tools-tend-to-give-me-issues-like-this-quite-a-bit}
@@ -93,6 +70,11 @@ Yes, it can be a paid to go about fixing a tool, or not being able to do the
 things you wanted to with a tool because its not working. But at the same time,
 if you choose tools that you know, and know so well that you can fix them, you
 can minimize the risk of that hiccup throwing your whole flow our of wack.
+
+-   note: For those interested, this is the bit of code I was learning about and
+    trying to run. Fun stuff.
+
+<!--listend-->
 
 <a id="code-snippet--Thread last"></a>
 ```clojure
