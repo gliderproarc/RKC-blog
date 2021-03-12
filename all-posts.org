@@ -1722,15 +1722,15 @@ had just heard about, and I got an error. It wasn't a problem with my code. The
 code was fine. The problem was with my tool. The problem lied somewhere is the
 line of:
 
-+ Windows
-++ WSL2
-+++ Pengwin
-++++ Emacs
-+++++ Org-mode configuration
-++++ Java
-+++++ Java configuration
-++++ Clojure
-+++++ Project configuration
+ Windows
+ WSL2
+ Pengwin
+ Emacs
+ Org-mode configuration
+ Java
+ Java configuration
+ Clojure
+ Project configuration
 
 **** My Tools tend to give me issues like this quite a bit
 It's mostly due to the fact I like to use tools that are pretty cutting edge.

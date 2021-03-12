@@ -2,7 +2,7 @@
 title = "Fixing tools"
 author = ["Robert Clay"]
 date = 2021-03-07
-lastmod = 2021-03-08T08:43:19+09:00
+lastmod = 2021-03-12T09:08:25+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -17,16 +17,15 @@ had just heard about, and I got an error. It wasn't a problem with my code. The
 code was fine. The problem was with my tool. The problem lied somewhere is the
 line of:
 
--   Windows
-
-~~+ WSL2
-++~~ Pengwin
-~~++~~ Emacs
-~~~~+~~~~ Org-mode configuration
-~~++~~ Java
-~~~~+~~~~ Java configuration
-~~++~~ Clojure
-~~~~+~~~~ Project configuration
+Windows
+WSL2
+Pengwin
+Emacs
+Org-mode configuration
+Java
+Java configuration
+Clojure
+Project configuration
 
 
 ## My Tools tend to give me issues like this quite a bit {#my-tools-tend-to-give-me-issues-like-this-quite-a-bit}
