@@ -1,105 +1,89 @@
 +++
-title = "Doom Emacs"
+title = "Hylang"
 author = ["Robert Clay"]
 date = 2021-03-14
-lastmod = 2021-03-14T09:15:10+09:00
+lastmod = 2021-03-21T10:08:47+09:00
 categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-03-14 Sun]</span></span>,#emacs
+-   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun 10:08]</span></span>
+-   State "TODO"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun 10:08]</span></span>
+
+<span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun]</span></span>,#python
 
 
-## Emacs configurations {#emacs-configurations}
+## Have you ever heard of Hy? {#have-you-ever-heard-of-hy}
 
-It's crazy to think that it's been only just over a year that I have been using
-Emacs. I found the software thanks to org-mode and searches on the net for a
-option for notes with power beyond simple words or reliance on an external
-company's server time. But I was warned when getting into Emacs that it was not
-for the faint-of-heart. I knew Emacs was going to be the hardest part of getting
-into org-mode, so I decided to use something to help me get up and running.
-Rather than trying to add the learning curve of Emacs onto org-mode, I decided
-to use Spacemacs.
+Those of you who have tried a lisp, and gotten used to having things like
+multiple arguments for things like addition have probably wondered how you can
+write more lisp and less things that aren't lisp. Well as I started poking
+around the internet for Lisps that would get me close to Clojure without needing
+to deal with the JVM all the time, I came acres this language called Hy.
 
 
-## Spacemacs is REALLY nice {#spacemacs-is-really-nice}
+## Lisp syntax for Python {#lisp-syntax-for-python}
 
-[spacemacs](<https://www.spacemacs.org/>) is something I wrote about on this blog
-before, so I won't go into it too much. Suffice to say it is a great "welcome"
-into the world of Emacs for those coming from other software like Vim
-(especially nice for people coming from Vim). There is also an episode in a
-podcast called [EmacsCast](<https://emacscast.org/episode%5F4/>) that goes into the
-differences between Emacs and what I really want to talk about today which is
-Doom. Please take a listen to that episode of you want to hear from someone who
-REALLY knows Emacs and not just a neophyte like myself.
+[Hylang](<https://docs.hylang.org/en/stable/>) is mostly just Python, but with a
+lisp syntax. It borrows bits and pieces from Clojure's flavor of lisp, and it's
+nice to see things like a Loop/recur macro for propper tail-call recursion
+despite the fact you are still running on Python. Hy can be installed as a
+python package to an existing Python run-time, and it affords some really nice
+inter-op with Python.
 
+Just yesterday, I decided to do a little practice and re-implemented a lowest
+common denominator function I had written in Python before:
 
-## Doom Emacs is an unfortunate name in my opinion {#doom-emacs-is-an-unfortunate-name-in-my-opinion}
+<a id="code-snippet--Hy-euc-lcd-tailcall"></a>
+```hy
+(require [hy.contrib.loop [loop]])
+(defn lowest-common-demoninator [num1 num2] "Algorithm practice. Euclidean greatest common denominator."
+    (if (> num2 num1) "The first number must be greater"
+        (loop [[n1 num1] [n2 num2]]
+          (if (= 0 n2) n1
+              (recur n2 (% n1 n2))))))
 
-...but as a configuration it's really nice. I am not a fan of the game, and the
-splash screen was not my favorite, but Emacs isn't a tool people pick because of
-how it looks. I moved to Doom emacs for one reason: Speed.
+(print (lowest-common-demoninator 259 37))
+```
 
-Spacemacs is great. It can do so much. In fact, there are things I wish Doom
-could do that I miss from Spacemacs. But Doom has the advantage of speed. It
-loads wicked fast, and in that sense I do think the name is rather fitting. Doom
-might not be the most pleasant place, but if you want to go brutally fast in
-Emacs, Doom is a great place to start.
+That is what I ended up with in Hy, vesus a similar implementation in valilla
+python
 
-I am not quite ready to roll my own Emacs configuration from vanilla Emacs just
-yet. But until I am, Doom is a really nice way to keep Emacs simpler while also
-affording me much snappier responce overall than what I was getting from
-Spacemacs.
-
-Doom and Spacemacs do a lot of the same things. Doom is harder to learn and
-there are fewer places you can go to get help. But you DO have the advantage of
-being able to use more general Emacs knowledge to help you get things working.
-Spacemacs I found to be so far abstracted from vanilla Emacs that I didn't
-bother reading too much about how other people configured Emacs. I focused my
-reading online to people working with Spacemacs. But with Doom, I find things
-online, and they fit into my Doom configuration much more readily.
-
-
-## To be honest, I like the Spacemacs bindings better {#to-be-honest-i-like-the-spacemacs-bindings-better}
-
-Doom doesn't have bad default keybindings. I just like Spacemacs' bindings
-better. What was one I was using all the time before? Oh yeah, [spc f j]. To me
-that makes all the sense in the world. I want to work with FILES and JUMP to
-another file with dired mode, so I hit my leader key and the two mnemonics to get
-there. I was really comfortable getting from place to place and getting at
-functionality I wanted in spacemacs. Things just took a bit to load after I
-asked for something. And when something didn't work, I resigned myself to
-needing to wait till the development branch pushed a fix before I would get it
-working again.
-
-In Doom it's [spc .], which is just harder to remember. I need to know that if I
-want dired, I hit leader and period. Why? Because that's the doom binding. Could
-I re-map it? Sure, but that's a lot of work and I am kind of fighting against
-the whole point of a configuration like Doom. I am using Dooom because I trust
-Henrick. If I thought I knew better I would make my own configuration. And until
-I learn enough to make anything like this, I would rather learn why he thinks
-[spc .] is better. And I bet you anything it's because it's faster. And it is.
-It's just speed at the cost of the mnemonic logic in Spacemacs.
+<a id="code-snippet--Euclidean-GCD-Python"></a>
+```python
+def euclidean_GDC(num1, num2):
+    """Euclidean greatest common denominator."""
+    if num2 > num1:
+        return "The first number must be greater"
+    elif num2 == 0:
+        return num1
+    else:
+        return euclidean_GDC(num2, (num1 % num2))
 
 
-## If you want a fast Emacs configuration and don't mind Spacemacs, try Doom {#if-you-want-a-fast-emacs-configuration-and-don-t-mind-spacemacs-try-doom}
+print(euclidean_GDC(270, 195))
+```
 
-If you are a vanilla Emacs user, you probably have a configuration that already
-works for you. You can probably fix your config if it breaks, and like the
-flexibility of a system you made. Doom might not be for you. If you are new to
-Emacs and don't know what I am talking about, Doom might also not be for you. I
-feel like Doom has a lot less hand-holding when compared with Spacemacs. But if
-you are looking for a good Emacs configuration for using Evil-mode EVERYWHERE
-you will most likely find something to like in Doom Emacs.
+They don't look that different, and to be fair the Python version is not that
+great considering it's recursive without any provision for what happens if you
+blow the stack. In a case like this, Hy doesn't provide very much that is
+different than vanilla python. It starts to become more apparent when you start
+to do more "lispy" things in your code.
 
-If you are not an Evil-mode kind of person, I found the Spacemacs support for
-turning Evil mode off better. In fact, that is another something I miss from
-Spacemacs. In Spacemacs, you can turn your Evil-insert-mode into Emacs-mode.
-Meaning while inserting text you can call Emacs binding as if you were using
-normal Emacs. But when you escape out if it, you are back in Evil-normal mode
-and can edit and move text with Evil's wonderful navigation, selection, and the
-fantastic leader key (space).
 
-I hope Spacemacs learns how to speed up it's load times and maybe take advantage
-of things like the new dumper being built into new versions of Emacs to cut down
-on start up time. I might be tempted to go back.
+## So why use Hy at all? {#so-why-use-hy-at-all}
+
+Well for, I don't write applications. I just write scripts. I need to call out
+to Python libraries to do stuff like parse CSV files or print out JSON into a
+format I can work within Org-mode. If I don't need to work about a team of
+people being able to read my code, Hy makes a lot of sense. I can even call
+straight python with in-line if I really need to. Maybe one day I will write
+production Python, and if that day comes I won't be able to get away with a
+Lowest-common denominator function like the one I have above.
+
+The way I see it, If I had a choice: use vanilla python, put up with some
+roughness and use Hy; I would rather use Hy. I don't do a whole lot with code.
+But the code I write I would love to be in the idiom that fits how I think the
+best. I quite like vanilla Python. But when I thought of how to make a function
+that calculates the lowest common denominator, this fairly function and
+recursive solution felt right.
