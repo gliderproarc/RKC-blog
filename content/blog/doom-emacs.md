@@ -2,13 +2,10 @@
 title = "Hylang"
 author = ["Robert Clay"]
 date = 2021-03-14
-lastmod = 2021-03-21T10:08:47+09:00
+lastmod = 2021-03-21T10:11:35+09:00
 categories = ["topic"]
 draft = false
 +++
-
--   State "DONE"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun 10:08]</span></span>
--   State "TODO"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun 10:08]</span></span>
 
 <span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun]</span></span>,#python
 

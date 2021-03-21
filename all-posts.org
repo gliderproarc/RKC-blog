@@ -1875,9 +1875,8 @@ on start up time. I might be tempted to go back.
     :EXPORT_FILE_NAME: doom-emacs
     :EXPORT_DATE: 2021-03-14
     :END:
-    - State "DONE"       from "TODO"       [2021-03-21 Sun 10:08]
-    - State "TODO"       from "TODO"       [2021-03-21 Sun 10:08]
    [2021-03-21 Sun],#python
+
 **** Have you ever heard of Hy?
 Those of you who have tried a lisp, and gotten used to having things like
 multiple arguments for things like addition have probably wondered how you can
