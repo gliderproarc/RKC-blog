@@ -2,7 +2,7 @@
 title = "Hylang"
 author = ["Robert Clay"]
 date = 2021-03-14
-lastmod = 2021-03-21T10:11:35+09:00
+lastmod = 2021-03-22T08:45:02+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -34,13 +34,13 @@ common denominator function I had written in Python before:
 <a id="code-snippet--Hy-euc-lcd-tailcall"></a>
 ```hy
 (require [hy.contrib.loop [loop]])
-(defn lowest-common-demoninator [num1 num2] "Algorithm practice. Euclidean greatest common denominator."
+(defn greatest-common-demoninator [num1 num2] "Algorithm practice. Euclidean greatest common denominator."
     (if (> num2 num1) "The first number must be greater"
         (loop [[n1 num1] [n2 num2]]
           (if (= 0 n2) n1
               (recur n2 (% n1 n2))))))
 
-(print (lowest-common-demoninator 259 37))
+(print (greatest-common-demoninator 259 37))
 ```
 
 That is what I ended up with in Hy, vesus a similar implementation in valilla
