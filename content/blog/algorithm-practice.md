@@ -1,8 +1,8 @@
 +++
 title = "Algorithm practice"
 author = ["Robert Clay"]
-date = 2021-03-28
-lastmod = 2021-04-05T11:36:28+09:00
+date = 2021-04-05
+lastmod = 2021-04-05T11:36:57+09:00
 categories = ["topic"]
 draft = false
 +++
