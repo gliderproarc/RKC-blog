@@ -2,7 +2,7 @@
 title = "Hylang is really nice"
 author = ["Robert Clay"]
 date = 2021-09-20
-lastmod = 2021-09-20T09:02:25+09:00
+lastmod = 2021-09-20T09:03:43+09:00
 categories = ["topic"]
 draft = false
 +++

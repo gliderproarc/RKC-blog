@@ -2380,8 +2380,6 @@ doing in Python and just write that out in a Lisp.
      But it showed me that if I needed to, I could use Hy to write Lisp that was
      not so functional and easier to use along side other code that was written
      in more OO or procedural style.
-
-
 * Footnotes
 
 * COMMENT Local Variables :ARCHIVE:
