@@ -2200,7 +2200,6 @@ being hopping that I will be able to pick it back up once I get a Mac and I can
 figure out how to install Planck.
 
 *** DONE Back to Spacemacs
-    CLOSED: [2021-06-14 Mon 11:05]
     :PROPERTIES:
     :EXPORT_FILE_NAME: back-to-sapcemacs
     :EXPORT_DATE: 2021-06-14
@@ -2291,6 +2290,98 @@ If you have different delimiters, you can just edit the code to match, and if
 you need some validation before you run the extraction, you could add a 3rd
 column that checks if the text can be processed before being passed to the
 sub-string function. I hope you find it useful someday.
+
+*** DONE Hylang is really nice
+    :PROPERTIES:
+    :EXPORT_FILE_NAME: back-to-sapcemacs
+    :EXPORT_DATE: 2021-09-20
+    :END:
+   [2021-09-20 Mon],#hylang
+**** Took a break from blogging
+     It's been a while since I have posted, but the summer gets rather busy at
+     my current workplace and I have been playing catch-up with a bunch of
+     stuff. Reason Studios (formerly Propellerhead software) released Reason 12,
+     and I have been very happily learning all about the new devices and playing
+     with Reason sounds as a VST. I hope to not just blog about that soon, but
+     also finish some music with it and show what has me so excited about that.
+
+     But today's post is not about Reason, it's about Hy. And the reason being I
+     have been learning more about Python and functional programming and I am
+     starting to see what makes Hy so cool.
+     
+**** Hy can look and work A LOT like vanilla Python
+    Consider the following:
+
+   #+name:Two_sum
+   #+begin_src python :python python3 :results output
+from itertools import combinations
+
+problem_list = [0, 9, 2, 32, 4, 52, 3, 7]
+problem_target = 6
+my_gen = combinations(problem_list, 2)
+current = next(my_gen)
+
+while sum(current) != problem_target:
+    current = next(my_gen)
+
+print(list([problem_list.index(current[0]), problem_list.index(current[1])]))
+   #+end_src 
+
+   #+RESULTS: Two_sum
+   : [2, 4]
+   
+And this:
+
+#+name:two-sum-hy
+#+begin_src hy :results output
+(setv problem-list [0 9 2 32 4 52 3 7])
+(setv problem-target 6)
+(setv hy-gen (combinations problem-list 2))
+(setv current (next hy-gen))
+
+(while (!= (sum current) problem-target)
+  (setv current (next hy-gen)))
+
+(print [(.index problem-list (first current)) (.index problem-list (nth current 1))])
+#+end_src    
+
+#+RESULTS: two-sum-hy
+: [2, 4]
+
+So it's not exactly the same. The second bit of code sure has a lot pore
+parenthesis. But the way the code in each does the work is REALLY close. And for
+those who don't recognize, this is an attempt I made at a Leet code problem
+where you need to return the indecies of the two numbers in the list that add up
+to the "target". The way I solved it was not efficient at all. This is about as
+"brute force" as you can get. I just guess and check and stop when I get the
+answer. But the problem was simple enough that I decided to do it in two
+languages, and I was really surprised at how easy it was to take something I was
+doing in Python and just write that out in a Lisp.
+
+**** Why would you want to do this?
+     I found a blog post online by this gentleman who was talking about CLojure
+     and Python. CLojure is still something I poke at, but can't really get my
+     head around the environment. I have always found Python to be pretty simple
+     to get running, and I found the comparison between the two to be very well
+     done. Clojure makes concurrent code easy and provides a very nice standard
+     library for writing functional code without needing to be like Haskel.
+     Python is a dynamic language that can look pretty function, and is very
+     quick to write, while tending to not be as speedy when running (compared
+     with things on the JVM).
+
+     Hy lets me use a lot of things that look A LOT like Clojure without
+     actually needing to run a JVM. And yes, I tried Clojurescript and Node was
+     not making things that much easier. I still want to get ClojureScript under
+     my belt for working with MaxMSP, but Hy is proving to be something that my
+     head has a very time getting a grasp on... despite the parenthesis.
+
+     The solution to the Leet Code problem I cam up with was not particularly
+     functional. Lots of variable assignment, and a less than ideal while loop.
+     But it showed me that if I needed to, I could use Hy to write Lisp that was
+     not so functional and easier to use along side other code that was written
+     in more OO or procedural style.
+
+
 * Footnotes
 
 * COMMENT Local Variables :ARCHIVE:
