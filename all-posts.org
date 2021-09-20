@@ -2293,7 +2293,7 @@ sub-string function. I hope you find it useful someday.
 
 *** DONE Hylang is really nice
     :PROPERTIES:
-    :EXPORT_FILE_NAME: back-to-sapcemacs
+    :EXPORT_FILE_NAME: hylang-is-really-nice
     :EXPORT_DATE: 2021-09-20
     :END:
    [2021-09-20 Mon],#hylang
