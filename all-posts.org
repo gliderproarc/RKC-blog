@@ -1805,7 +1805,6 @@ differences between Emacs and what I really want to talk about today which is
 Doom. Please take a listen to that episode of you want to hear from someone who
 REALLY knows Emacs and not just a neophyte like myself.
 
-
 **** Doom Emacs is an unfortunate name in my opinion
 ...but as a configuration it's really nice. I am not a fan of the game, and the
 splash screen was not my favorite, but Emacs isn't a tool people pick because of
@@ -1872,8 +1871,8 @@ of things like the new dumper being built into new versions of Emacs to cut down
 on start up time. I might be tempted to go back.
 *** DONE Hylang
     :PROPERTIES:
-    :EXPORT_FILE_NAME: doom-emacs
-    :EXPORT_DATE: 2021-03-14
+    :EXPORT_FILE_NAME: hylang
+    :EXPORT_DATE: 2021-03-21
     :END:
    [2021-03-21 Sun],#python
 
