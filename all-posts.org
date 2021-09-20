@@ -1974,7 +1974,7 @@ configuration files.
 Nix is supprisingly one of the most reliable ways I have found for installing
 Emacs 27 on WSL. I need to install he dependencies for Vterm from apt, but Emacs
 installs from Nix really well. I was hoping to also use Nix for Python, Java,
-and CLojure tooling, but I ran into a few snags.
+and CLojure tooling, but I ran into more than a few snags.
 
 Python installed just fine, but getting packages was proving to be a pain. In
 the end I just installed Python from apt and went with pyenv for virtual
