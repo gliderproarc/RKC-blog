@@ -2289,7 +2289,7 @@ second to last character of the string.
 If you have different delimiters, you can just edit the code to match, and if
 you need some validation before you run the extraction, you could add a 3rd
 column that checks if the text can be processed before being passed to the
-sub-string function. I hope you find it useful someday.
+sub-string function. I hope you find it useful someday. I am sure I will one day.
 
 *** DONE Hylang is really nice
     :PROPERTIES:
