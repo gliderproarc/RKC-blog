@@ -82,5 +82,3 @@ learn more by teaching. Someone is going to be close to my level reading this
 and find something useful that they were looking for, and I hope that I save
 them some hours going and looking around the internet so they can get back to
 doing things that are more fun.
-
--   State "TODO"       from              <span class="timestamp-wrapper"><span class="timestamp">[2022-01-26 Wed 20:27]</span></span>
