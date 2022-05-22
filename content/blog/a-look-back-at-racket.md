@@ -2,7 +2,7 @@
 title = "A look back at Racket"
 author = ["Robert Clay"]
 date = 2022-05-22
-lastmod = 2022-05-22T16:50:04+09:00
+lastmod = 2022-05-22T16:52:36+09:00
 categories = ["topic"]
 draft = false
 +++
