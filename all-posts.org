@@ -2455,8 +2455,8 @@ doing things that are more fun.
 
 *** DONE A look back at Racket
 :PROPERTIES:
-    :EXPORT_FILE_NAME: a-look-back-at-racket
-    :EXPORT_DATE: 2022-05-22
+    :EXPORT_FILE_NAME: a-look-vack-at-racket
+    :EXPORT_DATE: 2022-05-21
     :END:
 [2022-05-22 Sun],#programming
 

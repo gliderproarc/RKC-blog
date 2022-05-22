@@ -1,6 +1,6 @@
 +++
 author = ["Robert Clay"]
-lastmod = 2022-05-22T16:56:32+09:00
+lastmod = 2022-05-22T17:04:59+09:00
 draft = false
 +++
 
@@ -2618,7 +2618,7 @@ hole they are heading down is really worth it.
     doing things that are more fun.
 
 
-#### <span class="org-todo done DONE">DONE</span> A look back at Racket {#a-look-back-at-racket}
+#### <span class="org-todo done DONE">DONE</span> A look back at Racket {#a-look-vack-at-racket}
 
 <span class="timestamp-wrapper"><span class="timestamp">[2022-05-22 Sun]</span></span>,#programming
 
