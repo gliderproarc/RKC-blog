@@ -1,6 +1,6 @@
 +++
 author = ["Robert Clay"]
-lastmod = 2022-05-22T17:04:59+09:00
+lastmod = 2022-05-22T17:10:08+09:00
 draft = false
 +++
 
