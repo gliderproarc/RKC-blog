@@ -21,33 +21,6 @@
   :EXPORT_HUGO_SECTION: blog
   :END:
 ** Topic                                                             :@topic:
-*** TODO Post Title                                               :post:tags:
-    :PROPERTIES:
-    :EXPORT_DATE: 2017-12-19
-    :EXPORT_FILE_NAME: post-title-in-slug-form
-    :END:
-
-    - State "TODO"       from "DONE"       [2020-12-15 Tue 22:31]
-    Content
-
-    More Content
-
-    #+BEGIN_SRC bash -l 7 :hl_lines 8
-      echo 'Some source code content'
-      echo 'This line will be highlighted'
-      echo "This one won't"
-    #+END_SRC
-
-**** Post Sub-Heading
-     This is another section within the post.
-
-*** TODO Draft Post Title
-    :PROPERTIES:
-    :EXPORT_FILE_NAME: draft-post-title
-    :END:
-
-    This article *will* be exported but will be marked ~draft = true~ in the front matter.
-
 *** DONE First post
     :PROPERTIES:
     :EXPORT_FILE_NAME: bobby-test-post
