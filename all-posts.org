@@ -2760,7 +2760,8 @@ shot. The closest I have come to making a website is thing blog, and it will be
 interesting to see what it's like when I control everything on a website from
 top to bottom.
 
-Expect to see some blog posts detailing what it's like getting that started soon.
+Expect to see some blog posts detailing what it's like getting that started
+soon. Hopefully.
 * Footnotes
 
 * COMMENT Local Variables :ARCHIVE:

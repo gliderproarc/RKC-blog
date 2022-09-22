@@ -1,6 +1,6 @@
 +++
 author = ["Robert Clay"]
-lastmod = 2022-09-23T08:13:16+09:00
+lastmod = 2022-09-23T08:24:19+09:00
 draft = false
 +++
 
@@ -2958,4 +2958,5 @@ hole they are heading down is really worth it.
     interesting to see what it's like when I control everything on a website from
     top to bottom.
 
-    Expect to see some blog posts detailing what it's like getting that started soon.
+    Expect to see some blog posts detailing what it's like getting that started
+    soon. Hopefully.

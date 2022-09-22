@@ -2,7 +2,7 @@
 title = "A use for Racket"
 author = ["Robert Clay"]
 date = 2022-09-23
-lastmod = 2022-09-23T08:12:45+09:00
+lastmod = 2022-09-23T08:23:42+09:00
 categories = ["topic"]
 draft = false
 +++
@@ -57,4 +57,5 @@ shot. The closest I have come to making a website is thing blog, and it will be
 interesting to see what it's like when I control everything on a website from
 top to bottom.
 
-Expect to see some blog posts detailing what it's like getting that started soon.
+Expect to see some blog posts detailing what it's like getting that started
+soon. Hopefully.
