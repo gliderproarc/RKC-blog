@@ -22,13 +22,13 @@ actually trying to do something with it when it's done.
 
 So I am kind of glad I am back to writing more Python. Because of the languages
 I have used to actually get things done, I think I have found the most practical
-use for Python. So where does Racket fall into this?
+use for Python. So where does Racket fall in all this?
 
 
 ## A languages "laboratory" {#a-languages-laboratory}
 
 Python and Elixir are cool. I like writing them just fine. But occasionally I
-find my self reading about something and wondering "Hey, can I do that in Python
+find myself reading about something and wondering "Hey, can I do that in Python
 or Elixir?". And sometimes I can, sometimes I can't. Both Python and Elixir have
 some language contracts for working with Lazy evaluation, but nothing like what
 Racket has in the "Lazy" version of the language you can use or import at a
