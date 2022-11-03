@@ -4,7 +4,7 @@ author = ["Robert Clay"]
 date = 2022-11-02
 lastmod = 2022-11-01T08:30:34+09:00
 categories = ["topic"]
-draft = true
+draft = false
 +++
 
 <span class="timestamp-wrapper"><span class="timestamp">[2022-11-02 Wed]</span></span>,#programming
