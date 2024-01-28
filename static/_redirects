@@ -1,1 +1,1 @@
-/weather/*  https://weather.example.com/location/:splat  200!
+/weather  /ok  200!
