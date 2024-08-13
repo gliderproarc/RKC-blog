@@ -2,7 +2,7 @@
 title = "Org-mode table alignment with non-latin characters"
 author = ["Robert Clay"]
 date = 2021-02-06
-lastmod = 2022-09-23T08:27:47+09:00
+lastmod = 2024-08-14T08:34:02+09:00
 categories = ["topic"]
 draft = false
 +++

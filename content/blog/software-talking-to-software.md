@@ -2,7 +2,7 @@
 title = "Software talking to software"
 author = ["Robert Clay"]
 date = 2020-12-27
-lastmod = 2022-09-23T08:27:36+09:00
+lastmod = 2024-08-14T08:34:02+09:00
 categories = ["topic"]
 draft = false
 +++

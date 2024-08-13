@@ -2,7 +2,7 @@
 title = "What this Blog runs on"
 author = ["Robert Clay"]
 date = 2020-12-16
-lastmod = 2022-09-23T08:27:26+09:00
+lastmod = 2024-08-14T08:34:02+09:00
 categories = ["topic"]
 draft = false
 +++

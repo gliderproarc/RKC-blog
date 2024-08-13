@@ -2762,6 +2762,23 @@ top to bottom.
 
 Expect to see some blog posts detailing what it's like getting that started
 soon. Hopefully.
+
+
+*** Moving the blog off of Netlify
+:PROPERTIES:
+    :EXPORT_FILE_NAME: moving-the-blog-off-of-netlify
+    :EXPORT_DATE: 2024-08-14
+    :END:
+[2024-08-14 Wed],#update
+
+**** Just in case Netlify starts charging me
+It's been a while since I've written on this blog. Lots has happened in the
+interim and I feel like it's time to get back into the habit of sharing what I
+have been learning. One of the things I learned was that Netlify will charge
+accounts if they exceed the free usage teir. Fair enough, that's what's in their
+EULA, so I need to be ready to pay, or move the blog.
+
+GitHub Pages seems like the simple alternative, so let's see if I can get this working.
 * Footnotes
 
 * COMMENT Local Variables :ARCHIVE:

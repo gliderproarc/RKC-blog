@@ -2,7 +2,7 @@
 title = "Back to focusing on Python"
 author = ["Robert Clay"]
 date = 2022-08-21
-lastmod = 2022-09-23T08:28:18+09:00
+lastmod = 2024-08-14T08:34:03+09:00
 categories = ["topic"]
 draft = false
 +++

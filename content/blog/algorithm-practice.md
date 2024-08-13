@@ -2,7 +2,7 @@
 title = "Algorithm practice"
 author = ["Robert Clay"]
 date = 2021-04-05
-lastmod = 2022-09-23T08:28:02+09:00
+lastmod = 2024-08-14T08:34:03+09:00
 categories = ["topic"]
 draft = false
 +++

@@ -2,7 +2,7 @@
 title = "First post"
 author = ["Robert Clay"]
 date = 2020-12-13
-lastmod = 2022-09-23T08:27:00+09:00
+lastmod = 2024-08-14T08:34:02+09:00
 categories = ["topic"]
 draft = false
 +++

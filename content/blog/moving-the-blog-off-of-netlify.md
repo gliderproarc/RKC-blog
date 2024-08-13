@@ -2,7 +2,7 @@
 title = "Moving the blog off of Netlify"
 author = ["Robert Clay"]
 date = 2024-08-14
-lastmod = 2024-08-14T08:34:03+09:00
+lastmod = 2024-08-14T08:35:54+09:00
 categories = ["topic"]
 draft = false
 +++
