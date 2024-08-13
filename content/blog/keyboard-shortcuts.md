@@ -2,7 +2,7 @@
 title = "Keyboard shortcuts"
 author = ["Robert Clay"]
 date = 2021-01-09
-lastmod = 2024-08-14T08:34:02+09:00
+lastmod = 2024-08-14T08:52:56+09:00
 categories = ["topic"]
 draft = false
 +++

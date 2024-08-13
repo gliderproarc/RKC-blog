@@ -2,7 +2,7 @@
 title = "The nice feeling after a reinstall"
 author = ["Robert Clay"]
 date = 2021-03-28
-lastmod = 2024-08-14T08:34:03+09:00
+lastmod = 2024-08-14T08:52:57+09:00
 categories = ["topic"]
 draft = false
 +++

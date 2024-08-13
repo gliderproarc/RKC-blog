@@ -2,7 +2,7 @@
 title = "The curse of lisp"
 author = ["Robert Clay"]
 date = 2022-06-11
-lastmod = 2024-08-14T08:34:03+09:00
+lastmod = 2024-08-14T08:52:57+09:00
 categories = ["topic"]
 draft = false
 +++

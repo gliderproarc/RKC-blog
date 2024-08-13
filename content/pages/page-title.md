@@ -1,7 +1,7 @@
 +++
 title = "Main page"
 author = ["Robert Clay"]
-lastmod = 2024-08-14T08:34:02+09:00
+lastmod = 2024-08-14T08:52:56+09:00
 draft = false
 weight = 2001
 noauthor = true
