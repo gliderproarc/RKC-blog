@@ -2769,7 +2769,7 @@ soon. Hopefully.
     :EXPORT_FILE_NAME: moving-the-blog-off-of-netlify
     :EXPORT_DATE: 2024-08-14
     :END:
-[2024-08-14 Wed],#update
+[2024-08-14 Wed], #update
 
 **** Just in case Netlify starts charging me
 It's been a while since I've written on this blog. Lots has happened in the
