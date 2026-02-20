@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-09-23 Fri]</span></span>,#programming
+[2022-09-23 Fri],#programming
 
 
 ## Still writing some Racket {#still-writing-some-racket}

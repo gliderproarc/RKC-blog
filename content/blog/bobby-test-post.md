@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-12-15 Tue]</span></span>, #first_post
+[2020-12-15 Tue], #first_post
 
 This is the first of many posts to come. I had never considered my self a
 blogger type, but I have been learning some things recently and I feel like a

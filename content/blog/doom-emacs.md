@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-03-14 Sun]</span></span>,#emacs
+[2021-03-14 Sun],#emacs
 
 
 ## Emacs configurations {#emacs-configurations}

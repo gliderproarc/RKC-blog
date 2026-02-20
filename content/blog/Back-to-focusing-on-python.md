@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-08-21 Sun]</span></span>,#programming
+[2022-08-21 Sun],#programming
 
 
 ## Python is not perfect but it what I need to focus on for a bit {#python-is-not-perfect-but-it-what-i-need-to-focus-on-for-a-bit}

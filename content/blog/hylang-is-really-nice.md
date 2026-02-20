@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-09-20 Mon]</span></span>,#hylang
+[2021-09-20 Mon],#hylang
 
 
 ## Took a break from blogging {#took-a-break-from-blogging}
@@ -27,8 +27,6 @@ starting to see what makes Hy so cool.
 ## Hy can look and work A LOT like vanilla Python {#hy-can-look-and-work-a-lot-like-vanilla-python}
 
 Consider the following:
-
-<a id="code-snippet--Two-sum"></a>
 ```python
 from itertools import combinations
 
@@ -44,8 +42,6 @@ print(list([problem_list.index(current[0]), problem_list.index(current[1])]))
 ```
 
 And this:
-
-<a id="code-snippet--two-sum-hy"></a>
 ```hy
 (setv problem-list [0 9 2 32 4 52 3 7])
 (setv problem-target 6)

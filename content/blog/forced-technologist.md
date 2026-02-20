@@ -9,7 +9,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-04-11 Sun]</span></span>,#coding
+[2021-04-11 Sun],#coding
 
 
 ## You know you aren't a coder when... {#you-know-you-aren-t-a-coder-when-dot-dot-dot}

@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-01-14 Thu]</span></span>,#git
+[2021-01-14 Thu],#git
 
 
 ## What is version control? {#what-is-version-control}

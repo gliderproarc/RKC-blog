@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-03-28 Sun]</span></span>,#WSL2
+[2021-03-28 Sun],#WSL2
 
 
 ## No, I didn't reinstall Windows {#no-i-didn-t-reinstall-windows}

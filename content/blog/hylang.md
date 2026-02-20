@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-03-21 Sun]</span></span>,#python
+[2021-03-21 Sun],#python
 
 
 ## Have you ever heard of Hy? {#have-you-ever-heard-of-hy}
@@ -30,8 +30,6 @@ inter-op with Python.
 
 Just yesterday, I decided to do a little practice and re-implemented a lowest
 common denominator function I had written in Python before:
-
-<a id="code-snippet--Hy-euc-lcd-tailcall"></a>
 ```hy
 (require [hy.contrib.loop [loop]])
 (defn greatest-common-demoninator [num1 num2] "Algorithm practice. Euclidean greatest common denominator."
@@ -45,8 +43,6 @@ common denominator function I had written in Python before:
 
 That is what I ended up with in Hy, vesus a similar implementation in valilla
 python
-
-<a id="code-snippet--Euclidean-GCD-Python"></a>
 ```python
 def euclidean_GDC(num1, num2):
     """Euclidean greatest common denominator."""

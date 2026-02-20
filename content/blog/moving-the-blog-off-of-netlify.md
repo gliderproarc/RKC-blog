@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2024-08-14 Wed]</span></span>, #update
+[2024-08-14 Wed], #update
 
 
 ## Just in case Netlify starts charging me {#just-in-case-netlify-starts-charging-me}

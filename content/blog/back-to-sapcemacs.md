@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-06-14 Mon]</span></span>,#emacs
+[2021-06-14 Mon],#emacs
 
 
 ## Doom is still really nice for what it does. {#doom-is-still-really-nice-for-what-it-does-dot}

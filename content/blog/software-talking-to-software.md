@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-12-27 Sun]</span></span>,#software
+[2020-12-27 Sun],#software
 This post is going to be a little less focused than other posts on the same
 subject, but I feel I have a unique perspective to share from someone who is
 just getting into this space. Sometimes it's hard to see further down the rabbit

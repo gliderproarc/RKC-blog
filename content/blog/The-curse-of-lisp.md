@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-06-11 Sat]</span></span>,#programming
+[2022-06-11 Sat],#programming
 
 
 ## What is the curse of lisp? {#what-is-the-curse-of-lisp}

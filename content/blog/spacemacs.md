@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-12-21 Mon]</span></span>,#Emacs
+[2020-12-21 Mon],#Emacs
 
 Along with my search for an extensible note taking application and
 discovering Emacs and Org-mode, I also discovered Spacemacs (a set of

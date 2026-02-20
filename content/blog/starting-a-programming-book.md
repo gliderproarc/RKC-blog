@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-01-26 Wed]</span></span>,#programming
+[2022-01-26 Wed],#programming
 
 
 ## It's been a while {#it-s-been-a-while}

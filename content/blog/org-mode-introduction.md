@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-12-17 Thu]</span></span>,#Org-mode
+[2020-12-17 Thu],#Org-mode
 
   This topic deserves more than a post or two, but it's a nice short introduction to
 what it is and how it works might help you understand why I have come to rely

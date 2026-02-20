@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-01-03 Sun]</span></span>,#MaxMSP
+[2021-01-03 Sun],#MaxMSP
 
 
 ## Making your own tools can be a rewarding challenge {#making-your-own-tools-can-be-a-rewarding-challenge}

@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-01-09 Sat]</span></span>,#keybindings
+[2021-01-09 Sat],#keybindings
 
 
 ## Keyboards are not the perfect input device {#keyboards-are-not-the-perfect-input-device}

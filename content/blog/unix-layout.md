@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-01-30 Sat]</span></span>,#org-mode
+[2021-01-30 Sat],#org-mode
 
 
 ## Org-mode tip {#org-mode-tip}
@@ -44,8 +44,6 @@ proper mono-space size for these asian characters. But there is hope for Emacs
 users. Emacs let's you set all kinds of things. Once of them is the face for
 fonts used in various places in Emacs. If you are using Doom Emacs, you can
 include something like this in your ".config.el":
-
-<a id="code-snippet--org-table-config"></a>
 ```elisp
 (custom-theme-set-faces
  'user

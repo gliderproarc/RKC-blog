@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-11-02 Wed]</span></span>,#programming
+[2022-11-02 Wed],#programming
 
 
 ## Raspberry Pis are pretty cool {#raspberry-pis-are-pretty-cool}

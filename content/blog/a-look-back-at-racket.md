@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-05-22 Sun]</span></span>,#programming
+[2022-05-22 Sun],#programming
 
 
 ## So I took a little journey while on my way back to Python {#so-i-took-a-little-journey-while-on-my-way-back-to-python}

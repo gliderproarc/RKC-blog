@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-02-13 Sat]</span></span>,#blog
+[2021-02-13 Sat],#blog
 
 
 ## Yeah I know... a blog post about blogging is kind of redundant {#yeah-i-know-dot-dot-dot-a-blog-post-about-blogging-is-kind-of-redundant}

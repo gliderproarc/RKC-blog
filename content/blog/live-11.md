@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-02-26 Fri]</span></span>,#music
+[2021-02-26 Fri],#music
 
 
 ## Live 11 is really impressive {#live-11-is-really-impressive}

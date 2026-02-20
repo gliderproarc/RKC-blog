@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2020-12-16 Wed]</span></span>, #Emacs
+[2020-12-16 Wed], #Emacs
 This blog looks very simple on the surface, but what it is built on is
 something I am particularly happy with, and it will introduce a few themes
 and topics that I will write about more in the future.

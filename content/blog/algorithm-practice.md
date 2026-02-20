@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-04-05 Mon]</span></span>,#coding
+[2021-04-05 Mon],#coding
 
 
 ## Thinking in algorithms is hard {#thinking-in-algorithms-is-hard}

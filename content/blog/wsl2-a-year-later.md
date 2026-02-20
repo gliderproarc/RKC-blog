@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-04-19 Mon]</span></span>,#wsl
+[2021-04-19 Mon],#wsl
 
 
 ## WSL2 has been really fun to work with {#wsl2-has-been-really-fun-to-work-with}

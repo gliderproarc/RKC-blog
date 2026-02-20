@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2022-12-30 Fri]</span></span>,#programming
+[2022-12-30 Fri],#programming
 
 
 ## Who would have thought Elixir would lead me to ML?

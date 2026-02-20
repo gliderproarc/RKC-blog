@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-01-23 Sat]</span></span>,#nix
+[2021-01-23 Sat],#nix
 
 
 ## An alternative packaging system {#an-alternative-packaging-system}

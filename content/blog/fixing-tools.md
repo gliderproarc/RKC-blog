@@ -7,7 +7,7 @@ categories = ["topic"]
 draft = false
 +++
 
-<span class="timestamp-wrapper"><span class="timestamp">[2021-03-07 Sun]</span></span>,#emacs
+[2021-03-07 Sun],#emacs
 
 
 ## Tools are only as useful if they work the way you need them to {#tools-are-only-as-useful-if-they-work-the-way-you-need-them-to}
@@ -72,10 +72,6 @@ can minimize the risk of that hiccup throwing your whole flow our of wack.
 
 -   note: For those interested, this is the bit of code I was learning about and
     trying to run. Fun stuff.
-
-<!--listend-->
-
-<a id="code-snippet--Thread last"></a>
 ```clojure
 (->> (range 1 10)
      (map inc)
